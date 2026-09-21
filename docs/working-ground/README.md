@@ -1,5 +1,13 @@
 # Working ground
 
+**Current ownership — September 21, 2026:** this is the canonical mathematical
+working ground in [decision-interfaces](https://github.com/saykig/decision-interfaces).
+Future theorem development, proofs, verification and mathematical provenance live
+here. [Cooperation-enforcement](https://github.com/saykig/cooperation-enforcement)
+is the Ukraine-focused CEES application/proving ground. See the
+[research programme](../../RESEARCH_PROGRAMME.md) and [handoff record](FOUNDATION_HANDOFF.md).
+The trajectory below is inherited intact; dated “latest” entries describe their phase.
+
 The research trajectory behind Cooperation & Enforcement, beginning August 13,
 2026. This area collects the mathematical questions, proofs, counterexamples,
 literature notes, experiments and changes of direction in one place.

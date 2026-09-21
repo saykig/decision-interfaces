@@ -564,3 +564,14 @@ These supplement written proofs, not Lean or independent human review.
 minimality, practical higher-d codecs and the full strategic formalization.
 The storage question is resolved under the explicit finite-budget contract;
 continuous fine frontiers were not begun.
+
+
+## September 21, 2026 — canonical mathematical repository handoff
+
+Inherited the complete cooperation-enforcement main history through `7dfd6ae183ce8a1e68648993661be2e39b31f16a`
+and its research snapshot into decision-interfaces. Future mathematical development,
+proofs, verification and provenance belong here; the Ukraine-focused CEES application
+remains in cooperation-enforcement and cites foundation results by full commit.
+Research artifacts and their evidence statuses are unchanged. This is an
+organizational handoff, not a new mathematical phase or proof. See
+[handoff provenance](FOUNDATION_HANDOFF.md) and [programme](../../RESEARCH_PROGRAMME.md).

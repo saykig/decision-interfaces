@@ -1,46 +1,56 @@
-# Cooperation & Enforcement
+# Decision Interfaces
 
-[![Research verification](https://github.com/saykig/cooperation-enforcement/actions/workflows/research-verification.yml/badge.svg)](https://github.com/saykig/cooperation-enforcement/actions/workflows/research-verification.yml)
+[![Research verification](https://github.com/saykig/decision-interfaces/actions/workflows/research-verification.yml/badge.svg)](https://github.com/saykig/decision-interfaces/actions/workflows/research-verification.yml)
 
-This repository records the development of my MA major thesis: the questions, proofs, counterexamples, literature notes, computational experiments, failed directions, and changes in argument as the research develops.
+The canonical mathematical-foundation repository for reusable decision interfaces
+under uncertainty, strategic interaction and composition. It owns future theorem
+development, proofs, counterexamples, verification, source notes and mathematical
+provenance, including the research trail that led to the current results.
 
-Current literature already has substantial work on cooperation, information design, signaling, incentives, enforcement, and strategic communication. I am not trying to rebuild those literatures; instead, I am interested in a place where they seem to remain somewhat fragmented. Consider the following question: **what happens to cooperation when different information sources and strategic actors are connected, and when institutions can respond by changing either who learns what or how strongly cooperation is enforced?**
+The first foundation paper asks:
 
-This is an abstract mathematical question, but the structure appears in real security institutions. In Ukraine, increasingly autonomous systems combine battlefield information, targeting and human decision authority, as seen in [Reuters reporting on Ukrainian drone units using AI guidance and targeting](https://www.reuters.com/business/aerospace-defense/ukrainian-drone-pilots-look-ai-battlefield-edge-2025-11-29/). Across NATO and the Arctic, uncrewed surveillance systems collect, fuse and distribute information across states before it reaches military decision-makers, including through [NATO's expansion of its intelligence, surveillance and reconnaissance fleet for the Arctic and High North](https://www.nato.int/en/news-and-events/articles/news/2026/07/07/nato-expands-its-intelligence-surveillance-and-reconnaissance-fleet-with-the-purchase-of-triton-aircraft). These systems raise a broader question: when information is distributed across actors and technologies, how does connecting it change the incentives and enforcement required for cooperation?
+> What must a representation retain to preserve a declared family of strategic
+> decisions, and how do accuracy, composition and reuse constrain its size?
 
-## Current evolving research question
+The mathematics has a publication path independent of the CEES degree requirement.
+The current enforcement benchmark supplies precise objects and test cases;
+broader applicability must follow from explicit assumptions and results.
 
-> How do connected information structures determine the incentives or enforcement required to sustain cooperation?
+## Two repositories, distinct responsibilities
 
-## Broader programme and current proving ground
+| Repository | Responsibility |
+|---|---|
+| **decision-interfaces** | Mathematical foundations, theorem statements and proofs, verification and formalization, literature comparison, corrections and full mathematical provenance. |
+| [cooperation-enforcement](https://github.com/saykig/cooperation-enforcement) | Application and proving ground for the Ukraine-focused CEES paper: empirical evidence, operational interpretation, application-specific modelling and evaluation. NATO/coalition context belongs there when it supports that European focus. |
 
-This thesis is the current proving ground for a broader research programme:
-building reusable mathematical interfaces for consequential decision-making under
-uncertainty, strategic interaction and changing information.
+Applications cite a full foundation commit, exact result/path, assumptions and
+verification status. A mathematical theorem establishes a conditional result;
+it does not establish an empirical hypothesis about Ukraine without separate
+evidence. See the [research programme and citation contract](RESEARCH_PROGRAMME.md).
 
-“Universal” here does not mean one equation that predicts every outcome. It means
-that the mathematical pieces should be interoperable: uncertainty, dynamics,
-strategy, incentives, enforcement and other components should be reusable across
-different domains when their assumptions and interfaces match.
+## Start here
 
-Cooperation and enforcement are the current test case. Security and war are
-important applications, not the intended boundary of the mathematics. The same
-underlying interfaces should eventually be testable in other settings such as AI
-coordination, biosecurity and institutional bargaining.
+- [Working ground and research phases](docs/working-ground/README.md)
+- [Research progress](docs/working-ground/PROGRESS.md) and [decisions/corrections](docs/working-ground/DECISIONS.md)
+- [North star](docs/working-ground/research/foundations/NORTH_STAR.md), preserving the August 13 statement and September 20 clarification
+- [Verification ledger](docs/working-ground/VERIFICATION.md) and [formalization backlog](docs/working-ground/FORMALIZATION_BACKLOG.md)
+- [R15 enforcement-sufficient interfaces](docs/working-ground/research/enforcement_codec_2026_09_20/README.md)
+- [R16 optimal bits and composition/reuse contract](docs/working-ground/research/optimal_bits_2026_09_21/README.md)
+- [Import provenance and recovery](docs/working-ground/FOUNDATION_HANDOFF.md)
 
-The canonical research-purpose statement, including the September 20 clarification,
-is recorded in the [research north star](docs/working-ground/research/foundations/NORTH_STAR.md).
+R16 records matching planar storage rates and a bounded-versus-unlimited reuse
+boundary, with written proofs and exact executable evidence. R14 has scoped Lean
+coverage of beliefs, receiver choices and continuation gains. Full target-existence
+and the attained minimum-fine theorem remain written proofs; R15/R16 have no new
+Lean proofs. Historical missing executables and unrun experiments remain explicitly
+recorded. A green CI run covers only the suites and formal statements it executes.
 
+## Provenance
 
-*The current research question is in its rough draft and will evolve over time. The purpose of this repository is to preserve the research trajectory of the paper*
-
-## Working ground
-
-The [research working ground](docs/working-ground/README.md) collects the mathematical research, progress ledger, counterexamples and evidence, beginning August 13, 2026. The [verification ledger](docs/working-ground/VERIFICATION.md) states exactly which results have written proofs, computational checks, or Lean coverage.
-
-The latest [enforcement-sufficient compression phase](docs/working-ground/research/enforcement_codec_2026_09_20/manuscript/RESEARCH_NOTE.md)
-asks what a minimal reusable information interface must retain to preserve
-enforcement decisions under composition. It derives an operational error measure,
-composition law and fixed-dimensional storage bounds, and records a proof-carrying
-planar codec from the originating run. These new compression results remain
-written proofs plus exact computational evidence; they are not yet Lean-verified.
+Established on September 21, 2026 from cooperation-enforcement commit
+[`7dfd6ae183ce8a1e68648993661be2e39b31f16a`](https://github.com/saykig/cooperation-enforcement/commit/7dfd6ae183ce8a1e68648993661be2e39b31f16a).
+All 43 commits reachable from that source tip and all 273 tracked files were
+inherited without rewriting history. Mathematical research files retain their
+original paths and bytes. New guidance and appended handoff entries establish the
+new ownership boundary. The source repository retains its complete mathematics
+and history for later user-directed cleanup.

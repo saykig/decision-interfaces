@@ -312,3 +312,14 @@ A source-readable verifier can recompute the rational sandwich with zero
 additional witnesses. This does not prove a source-free recipient's relationship
 to unseen data, eliminate source storage, or make verification/query work free.
 Tree max-sum messages compute only error budgets, not complete strategic answers.
+
+
+## D52 — September 21: separate mathematical foundation from CEES application
+
+Decision-interfaces is canonical for future theorems, proofs, verification and
+mathematical provenance. Cooperation-enforcement owns the Ukraine-focused CEES
+application and retains its complete mathematical history pending later cleanup.
+Applications cite exact foundation results by full commit and state the assumptions
+and evidence status used. Mathematical validity does not by itself establish an
+empirical war hypothesis. Earlier routing instructions are historical; see the
+[current programme](../../RESEARCH_PROGRAMME.md). No mathematical result is changed.
