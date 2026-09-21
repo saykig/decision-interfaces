@@ -1,0 +1,40 @@
+name: Order contract reference
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/working-ground/research/order_contracts_2026_09_21/**'
+      - '.github/workflows/order-contracts.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: docs/working-ground/research/order_contracts_2026_09_21/experiments
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Exact all-order replay
+        run: |
+          python check_all_orders.py > /tmp/r17.json
+          python -O check_all_orders.py > /tmp/r17-O.json
+          cmp /tmp/r17.json /tmp/r17-O.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          got = json.loads(Path('/tmp/r17.json').read_text())
+          saved = json.loads(Path('receipt.json').read_text())
+          for key in ('status', 'counts', 'source_sha256', 'sympy_version'):
+              if got[key] != saved[key]:
+                  raise SystemExit('Receipt mismatch: ' + key)
+          for key, value in saved['fixtures'].items():
+              if got['fixtures'][key]['answer'] != value:
+                  raise SystemExit('Fixture mismatch: ' + key)
+          PY

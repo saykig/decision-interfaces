@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "counts": {"all_order_singleton_checks": 2616, "raw_polynomial_crosschecks": 150, "original_suffix_witness_checks": 30, "optimization_fixtures": 3, "honest_refinement": 1, "work_budget_is_not_refinement": 1, "wrong_source_sandwich": 1, "strict_and_narrow_boundaries": 4, "zero_soundness": 12, "invalid_input_rejections": 4},
+  "total_checks": 2822,
+  "source_sha256": {"all_orders.py": "5906a310cb744c42f75a912f1929775a86bf6c2d46965faecf43f9893ffe816c", "check_all_orders.py": "08d498b3c571c033deb3376243f003e7a06553b2fbe408e6f406515fb02c5ca7"},
+  "sympy_version": "1.14.0",
+  "fixtures": {"safe": "ZERO", "unsafe": "FULL", "exact_tie": "ZERO", "refine": "REFINE", "budget": "UNKNOWN"},
+  "normal_optimized": "byte-identical full test outputs",
+  "formal_verification": "not run",
+  "independence": "SymPy builds raw suffix polynomials without threshold aggregation; both implementations inherit the same cascade semantics, not independent extensive-form games.",
+  "scope": "One convex planar block, any finite number of exact known-probability senders; full permutation enumeration. No efficient-selection, general uncertain-attachment or tree-order claim."
+}
