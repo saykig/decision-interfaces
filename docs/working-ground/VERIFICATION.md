@@ -130,3 +130,20 @@ code. No independent extensive-form game rederivation was executed in R17.
 The next assurance priority is still full R08/R14 target existence and the R15
 interface-to-margin bridge. Mathematical exploration and general query integration
 may proceed in parallel; see [ACTIVE_GOALS.md](ACTIVE_GOALS.md).
+
+
+## R18 composed query reference — September 21, 2026
+
+**Written guarantee:** source-relative downward domination is preserved through
+independent occurrences and unions with the same finite mask; monotone strict
+suffix products therefore justify the four-result all-order contract.
+**Exact computation:** [retained receipt](research/composed_queries_2026_09_21/experiments/receipt.json)
+binds codec/query/test sources and records R10/R12 comparisons, independent cvc5
+full-order checks, primitive mixed/backward game comparisons, rational witnesses,
+and adversarial scope/budget controls. Normal and optimized runs agree.
+**Formal status:** no new Lean result for this implementation. Strategic meaning
+inherits R13's written theorem and R14's scoped formal bridge. General emptiness
+trusts Z3; finite comparisons with cvc5 are not independent proof-kernel replay.
+**Limits:** factorial order enumeration, enumerated finite/tree labels, compressed
+planar blocks only, arbitrary exact V attachments, no diagonal compressed reuse.
+[Full contract, proof and literature](research/composed_queries_2026_09_21/README.md).

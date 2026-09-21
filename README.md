@@ -45,6 +45,16 @@ and the attained minimum-fine theorem remain written proofs; R15/R16 have no new
 Lean proofs. Historical missing executables and unrun experiments remain explicitly
 recorded. A green CI run covers only the suites and formal statements it executes.
 
+## Current executable coverage
+
+[R18 composed queries](docs/working-ground/research/composed_queries_2026_09_21/README.md)
+connects R16 binary payloads to arbitrary rational V-polytope attachments, multiple
+compressed components, bounded repeated independent occurrences, and exact finite
+label/tree masks. It preserves ZERO/FULL/REFINE/UNKNOWN, with rational witnesses,
+trusted exact backends and comparisons to R10/R12 and the primitive R13 game.
+This closes the declared reference-query integration gate; the two Lean bridges
+and continuous-enforcement research remain separate obligations.
+
 ## Provenance
 
 Established on September 21, 2026 from cooperation-enforcement commit

@@ -8,7 +8,8 @@ ceiling or require an empirical transfer before a mathematical manuscript can cl
 See the [research programme](../../RESEARCH_PROGRAMME.md) and
 [handoff record](FOUNDATION_HANDOFF.md).
 
-**Current work:** [active mathematical goals](ACTIVE_GOALS.md),
+**Current work:** [R18 source-bound composed query reference](research/composed_queries_2026_09_21/README.md),
+[active mathematical goals](ACTIVE_GOALS.md),
 [R17 all-order implementation, progress and decisions D53–D55](research/order_contracts_2026_09_21/README.md),
 and [interface contract](research/order_contracts_2026_09_21/INTERFACE_CONTRACT.md).
 The older dated entries below retain their historical scope and evidence status.

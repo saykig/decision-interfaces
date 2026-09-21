@@ -190,3 +190,21 @@ jobs:
           python3 docs/working-ground/research/lean_belief_bridge_2026_09_19/lean/verify.py \
             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
             --lean lean >/tmp/r14-lean.json
+
+  composed-query-reference:
+    name: R18 source-bound composed query reference
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install exact backends
+        run: pip install -r docs/working-ground/research/composed_queries_2026_09_21/experiments/requirements.txt
+      - name: Replay general products, masks, codec, optimized selectors and primitive game
+        working-directory: docs/working-ground/research/composed_queries_2026_09_21/experiments
+        run: |
+          python check.py > /tmp/r18.json
+          python -O check.py > /tmp/r18-O.json
+          cmp /tmp/r18.json /tmp/r18-O.json
+          cmp receipt.json /tmp/r18.json

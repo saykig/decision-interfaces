@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "bad_witness_rejected": 1,
+    "codec_source_soundness": 6,
+    "compressed_label_masks": 1,
+    "convexification_counterexample": 1,
+    "dimension_three_all_orders": 1,
+    "erased_mask_counterexample": 1,
+    "exact_product_tie": 1,
+    "fresh_occurrence_weights": 2,
+    "full_evidence_complete": 10,
+    "general_attachment_multiple_codecs": 1,
+    "general_attachment_strict_cascade": 1,
+    "independent_cvc5_full_order": 84,
+    "invalid_inputs_rejected": 8,
+    "mask_preserved": 1,
+    "modelwise_success": 2,
+    "narrow_interior_witness": 1,
+    "no_common_order": 1,
+    "order_unknown": 1,
+    "partial_full_is_unknown": 1,
+    "primitive_backward_comparison": 30,
+    "primitive_mixed_game_comparison": 30,
+    "product_vs_expanded_cvc5": 6,
+    "r10_optimized_comparison": 9,
+    "r12_fixture_answer": 14,
+    "r12_optimized_comparison": 14,
+    "rational_witness_replay": 189,
+    "repeated_compressed_occurrences": 2,
+    "representation_refine": 1,
+    "reuse_error_accounting": 2,
+    "tree_masks": 1,
+    "witness_unknown": 1
+  },
+  "codec_answers": [
+    {
+      "answer": "FULL",
+      "source_answer": "FULL"
+    },
+    {
+      "answer": "REFINE",
+      "source_answer": "ZERO"
+    },
+    {
+      "answer": "ZERO",
+      "source_answer": "ZERO"
+    },
+    {
+      "answer": "FULL",
+      "source_answer": "FULL"
+    },
+    {
+      "answer": "FULL",
+      "source_answer": "FULL"
+    },
+    {
+      "answer": "ZERO",
+      "source_answer": "ZERO"
+    }
+  ],
+  "scope": "exact backends and rational witnesses; no new Lean/game proof",
+  "source_hashes": {
+    "composed_queries_2026_09_21/experiments/check.py": "4a6f1353786e3163b23d0c362febdbc7da78102995c98cd55659302f8bd9611e",
+    "composed_queries_2026_09_21/experiments/query.py": "2d85783e729fcdf349988e9fb8c585bfbcb3c44d03e4d36febdfb012198f5e7c",
+    "optimal_bits_2026_09_21/experiments/codec.py": "84028f594ac594cce5eb1c39fa05f4b04393a4132b7bdb3f4e656a6986e8a8a9",
+    "optimal_bits_2026_09_21/experiments/verify.py": "7e5fb47c4d7e2f3fea1e2c38c2a21aac6ef704b8460f42831a4d7de35109d1b3"
+  },
+  "status": "pass",
+  "total": 424,
+  "z3": "4.15.3"
+}

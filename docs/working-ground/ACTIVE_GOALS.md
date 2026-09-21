@@ -41,6 +41,16 @@ shared constraints, repeated occurrences and all orders covered in the declared
 implemented class; explicit limits for runtime and trusted backends. R17 is a
 first completed subset of this gate, not the whole gate.
 
+### September 21 execution update
+
+[R18](research/composed_queries_2026_09_21/README.md) now supplies this declared
+end-to-end reference: binary payloads, arbitrary exact rational V attachments,
+multiple compressed blocks, bounded independent repeats, finite/tree masks, all
+orders and distinct REFINE/UNKNOWN states. Exact comparisons include R10/R12 and
+R13's primitive game. General compressed continuous parameter coupling, efficient
+label-tree strategic optimization and solver-free multivariate UNSAT certificates
+remain outside the implemented contract. No new runtime theorem is claimed.
+
 ## Gate B — formalize the two high-value bridges
 
 In parallel with Gate A, extend R14 to the assessment predicate, both backward

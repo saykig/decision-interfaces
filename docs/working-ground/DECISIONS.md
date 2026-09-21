@@ -323,3 +323,22 @@ Applications cite exact foundation results by full commit and state the assumpti
 and evidence status used. Mathematical validity does not by itself establish an
 empirical war hypothesis. Earlier routing instructions are historical; see the
 [current programme](../../RESEARCH_PROGRAMME.md). No mathematical result is changed.
+
+
+## D56 — September 21, R18: independent occurrences and exact finite disjunction
+
+A reused compressed payload supplies fresh within-branch parameters per occurrence,
+with a declared use limit and error charged for every occurrence. Tying continuous
+parameters is a different contract and is rejected by this product API. Finite
+label masks preserve permitted branches; the strategic engine must not convexify
+their union or optimize an order separately per branch. Exact joint V-polytopes
+remain available for representable continuous dependence.
+
+## D57 — September 21, R18: exact reference coverage does not establish efficiency
+
+Use closed barycentric simplices and strict rational polynomial inequalities for
+general V attachments, including degenerate cases. Z3 UNSAT remains a trusted
+backend decision; SAT evidence is rechecked as rational convex weights. Complete
+order evidence is necessary for FULL. Work-limited extraction/solving is UNKNOWN,
+not REFINE. Existing R10/R12 selectors are reused for comparisons in their stated
+classes; factorial reference enumeration is not a new selection theorem.

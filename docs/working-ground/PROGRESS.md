@@ -575,3 +575,24 @@ remains in cooperation-enforcement and cites foundation results by full commit.
 Research artifacts and their evidence statuses are unchanged. This is an
 organizational handoff, not a new mathematical phase or proof. See
 [handoff provenance](FOUNDATION_HANDOFF.md) and [programme](../../RESEARCH_PROGRAMME.md).
+
+
+## R18 — September 21: composed end-to-end query reference
+
+Integrated R16 binary decoding and source-relative sandwich verification with a
+new arbitrary-dimensional rational V-polytope product/all-order reference. Supports
+multiple compressed blocks, explicitly independent repeated occurrences with use
+limits, finite compatibility masks and tree-mask expansion. Preserves nonconvex
+unions and one common order; source hashes and per-scenario reuse errors accompany
+results. ZERO has a safe order; FULL has rational lower witnesses for every order;
+REFINE requires completed unresolved brackets; UNKNOWN records incomplete work.
+
+[Phase proof and evidence](research/composed_queries_2026_09_21/README.md) explain
+the exact barycentric polynomial reduction and solver trust. The new suite compares
+R10/R12 optimized selection, independent cvc5 full orders, R13 mixed and backward
+primitive games, source-bound codecs, interior/narrow/tie/degenerate fixtures,
+mask convexification failures and budget controls. Retained receipt gives counts
+and hashes; normal/optimized receipts agree. No new polynomial-time algorithm,
+Lean proof or historical-originality claim. Gate B proceeds separately; the
+main programme is unchanged. Next: finish the strategic/interface Lean bridges
+and test nonbinary scalar enforcement rather than optimize codec constants.
