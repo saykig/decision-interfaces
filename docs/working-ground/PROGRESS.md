@@ -630,3 +630,15 @@ threshold decisions,75 assessments and75 lottery payoff identities. Normal/-O
 receipts agree. Written proof, no new Lean or originality claim. The next bounded
 transfer problem is shared dependence between reward and detection parameters;
 no other model classes were added.
+
+
+### R18 follow-up — provenance collision and repeated-parameter attack
+
+An adversarial review found that concatenating component and label names with a
+colon could overwrite a provenance binding, although strategic answers remained
+correct. Nested component/label maps now preserve both source identities. A new
+fixture distinguishes independent reuse (FULL) from the same-parameter diagonal
+(ZERO) at all ratios 17/256 on the two-coordinate tradeoff segment. The updated
+suite passes454 checks with213 rational witness replays; normal/-O outputs agree.
+The original424-check receipt is preserved as receipt_b030010.json. This corrects
+an implementation provenance bug without rewriting the earlier evidence.

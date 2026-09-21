@@ -161,3 +161,12 @@ equal-interface collision, lower-endpoint quotient and serial composition.
 including75 mixed queries and75 primitive assessments. Both normal/-O receipts
 match. Primitive game and Z3 dependencies are explicit; no new Lean statements,
 independent human review, or historical novelty established by these phases.
+
+
+### R18 corrected provenance edition
+
+The post-b030010 receipt has454 checks, including213 rational witness replays,
+structured-name source-binding controls and a decisive independent-vs-diagonal
+reuse fixture. The previous424-check receipt remains under its commit-labelled
+filename. Normal/-O receipts match. The provenance-key fix does not change the
+mathematical query reduction or backend trust; it repairs source identity loss.

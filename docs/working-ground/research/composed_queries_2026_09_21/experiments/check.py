@@ -123,6 +123,18 @@ def main():
     for row in distinct['allowed']:
         one = deepcopy(distinct); one['allowed'] = [row]
         check(q.optimize(one)['answer'] == 'ZERO', 'modelwise_success')
+    # A decisive semantic regression: reusing the component independently is
+    # different from copying one selected parameter. A list of two weight rows
+    # alone would not catch accidental reuse of the same solver variables.
+    independent_repeat = instance([['1/4','1/2'],['1/2','1/4']], ['17/256']*4)
+    independent_repeat['occurrences'] = ['P','P']
+    independent_repeat['allowed'] = [['a','a']]
+    repeated_result = q.optimize(independent_repeat)
+    diagonal_repeat = instance([['1/4','1/2','1/4','1/2'],
+                                ['1/2','1/4','1/2','1/4']], ['17/256']*4)
+    check(repeated_result['answer'] == 'FULL', 'independent_repeat_full')
+    check(q.optimize(diagonal_repeat)['answer'] == 'ZERO', 'diagonal_repeat_zero')
+    verify_rows(independent_repeat, repeated_result)
     # Shared mask stops invented high/high combinations; convexification also fails.
     masked = deepcopy(distinct)
     masked['components']['K'] = {'labels': {'a': exact([['1/2']])}}
@@ -193,6 +205,21 @@ def main():
     rejects(lambda: q.optimize(bad))
     rejects(lambda: q.optimize(masked, timeout_ms=-1))
     check(not q.witness_valid([((F(1,2),),)], (F(1,2),), (0,), [[F(2)]]), 'bad_witness_rejected')
+    # Unrestricted names must retain two distinct source identities. The former
+    # concatenated metadata key 'X:Y:Z' silently overwrote the first binding.
+    collision = {'reuse': 'independent',
+                 'components': {'X:Y': {'labels': {'Z': exact([['1/3']])}},
+                                'X': {'labels': {'Y:Z': exact([['1/2']])}}},
+                 'occurrences': ['X:Y','X'], 'allowed': [['Z','Y:Z']],
+                 'ratios': ['1/10','1/10']}
+    collision_result = q.optimize(collision)
+    binding = collision_result['bindings']
+    check(set(binding) == {'X:Y','X'} and set(binding['X:Y']) == {'Z'} and
+          set(binding['X']) == {'Y:Z'}, 'structured_provenance_names')
+    for component, label, probability in [('X:Y','Z','1/3'), ('X','Y:Z','1/2')]:
+        digest = sha256(json.dumps([[probability]], separators=(',', ':')).encode()).hexdigest()
+        check(binding[component][label]['source_sha256'] == digest,
+              'distinct_source_bindings')
     here = Path(__file__).parent
     print(json.dumps({'status':'pass', 'checks':dict(sorted(counts.items())), 'total':sum(counts.values()),
                       'codec_answers':fixtures_out, 'z3':q.z3.get_version_string(),

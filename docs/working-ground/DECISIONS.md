@@ -362,3 +362,12 @@ dimensional families. Record an explicit operation/parameter interpretation,
 recover the source or enrich the interface, and do not present this unsupported
 transfer as a defect in the original theorem. The standard expected-penalty
 calculation is credited rather than claimed as original inspection theory.
+
+
+## D60 — September 21, R18 correction: structured source identities
+
+Legal component/label names may contain separators, so a concatenated string is
+not an injective provenance key. Keep nested bindings and test distinct names
+that formerly collided. A use-count or separate-weights-list check is also too
+weak to guard reuse semantics: retain an actual independent-versus-diagonal
+strategic separation fixture. Original receipts remain immutable historical evidence.

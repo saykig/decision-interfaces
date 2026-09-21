@@ -71,6 +71,9 @@ def prepare(data):
     for key in counts:
         raw = data['components'][key]
         alternatives, dimensions = {}, set()
+        # Keep component and label names structural: concatenating unrestricted
+        # names with ':' aliases ('X:Y', 'Z') and ('X', 'Y:Z').
+        bindings[key] = {}
         if not raw['labels'] or any(not isinstance(label, str) for label in raw['labels']):
             raise ValueError('nonempty string label set required')
         for label, item in raw['labels'].items():
@@ -96,7 +99,7 @@ def prepare(data):
                 raise ValueError('unsupported component kind')
             dimensions.add(len(lower[0]))
             alternatives[label] = (lower, tuple(tuple(scale*x for x in p) for p in lower), scale)
-            bindings[key+':'+label] = {
+            bindings[key][label] = {
                 'source_sha256': sha256(json.dumps([[str(x) for x in p] for p in source], separators=(',', ':')).encode()).hexdigest(),
                 'payload_sha256': payload_hash, 'scale': str(scale), 'dimension': len(lower[0])}
         if len(dimensions) != 1:

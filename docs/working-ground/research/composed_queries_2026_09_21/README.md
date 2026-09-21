@@ -134,6 +134,30 @@ compressed payload can be expensive to expand. No source-free authentication,
 portable small UNSAT proof, efficient tree strategic optimizer or continuous
 shared-parameter compressed representation is supplied.
 
+## September 21 provenance correction after b030010
+
+Adversarial review found a metadata collision: concatenating component and label
+names with `:` gave the same binding key for component `X:Y`/label `Z` and
+component `X`/label `Y:Z`. The last hash silently overwrote the first. The
+feasibility computation used separate structured components and remained sound,
+but its provenance output could omit one source. Bindings now use a nested map
+`bindings[component][label]`, preserving arbitrary string names. Regression checks
+verify both distinct source hashes. The original execution evidence is retained
+as [receipt_b030010.json](experiments/receipt_b030010.json); the current
+[receipt](experiments/receipt.json) records the corrected code.
+
+A further regression separates independent repetition from a shared parameter.
+For `P=conv{(1/4,1/2),(1/2,1/4)}`, two independent occurrences with all four ratios
+`17/256` yield FULL across 24 orders. The diagonal joint hull of
+`(1/4,1/2,1/4,1/2)` and `(1/2,1/4,1/2,1/4)` yields ZERO. For any first sender,
+the independent maximum suffix product is `9/128`, whereas the diagonal maximum
+is `1/16 < 17/256`. This tests the strategic consequence of fresh variables;
+merely counting two returned weight rows would not detect an accidental alias.
+
+```yaml
+LEAN: NO — This fixes source-identity serialization and adds a finite regression for the already declared independent-product semantics.
+```
+
 **Programme change:** Gate A now covers arbitrary exact V attachments, more than
 one R16 compressed block, bounded repeated independent use, and finite/tree label
 compatibility in an end-to-end full-order reference. Full assessment and operational
