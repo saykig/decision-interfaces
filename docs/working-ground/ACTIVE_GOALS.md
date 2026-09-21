@@ -82,6 +82,19 @@ bound. Do not simply define a supremum of violations and call it a new theory.
 Do not add rewards, vector sanctions, dynamics and bargaining simultaneously.
 Move to those when a result explains what they add or require.
 
+### September 21 execution update
+
+[R20](research/nonbinary_enforcement_2026_09_21/README.md) completes the first
+nonbinary test with an explicit committed report sanction: exact attained frontier,
+old-interface sufficiency, contextual coarseness and a sharp approximation bound.
+[R21](research/inspection_transfer_2026_09_21/README.md) completes one subsequent
+inspection transfer: equal old interfaces can require different fines, and the
+missing lower detection probability yields a minimal enrichment and composition
+rule. Both have written proofs and exact primitive checks; neither is new Lean.
+Do not add dynamics, bargaining and vector instruments simultaneously. The next
+bounded mathematical transfer is joint reward/detection dependence; first finish
+the core paper's assurance map and outstanding Gate B formal obligations.
+
 ## Literature and serendipity
 
 Audit novelty theorem by theorem across decision-preserving coding, experiments,

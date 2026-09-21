@@ -596,3 +596,37 @@ and hashes; normal/optimized receipts agree. No new polynomial-time algorithm,
 Lean proof or historical-originality claim. Gate B proceeds separately; the
 main programme is unchanged. Next: finish the strategic/interface Lean bridges
 and test nonbinary scalar enforcement rather than optimize codec constants.
+
+
+## R20 — September 21: nonbinary scalar enforcement frontier
+
+The [declared committed report sanction](research/nonbinary_enforcement_2026_09_21/README.md)
+has attained frontier max_p max(0,min_j(η_j suffix_j−k_j)), optimized over one
+common order. Two senders with fixed payoffs give a continuum of minima. Attempts
+to break D(P) fail throughout this class by monotonicity; contextual fixed-order
+coarseness follows from the old one-sender separation. The sharp operational bound
+is eP ≤ exp(δ)eQ+(exp(δ)−1)max k, including a rational optimized-order equality
+example. Independent and repeated factors, exact attachments and compatible labels
+inherit the error accounting. No optimized-only coarseness claim is made.
+
+**Evidence:** complete written cost-substitution/backward proofs; 94 primitive
+mixed queries, 94 backward assessments, 912 payoff identities, 98 exhaustive pure
+profiles,64 exact continuum queries; normal/optimized receipts match. No new Lean
+or candidate-original label. Next: change only sanction observability and test
+whether the interface still preserves the minimum.
+
+## R21 — September 21: inspection transfer requires lower detection bounds
+
+The [one-dimensional verification component](research/inspection_transfer_2026_09_21/README.md)
+has minimum credible committed fine g/min U. Families U={1/2} and V=[1/4,1/2]
+have equal old downward/log-support interfaces but minima 1 and 2 when g=1/2.
+All query primitives stay fixed; the component parameter now controls an independent
+post-action detection lottery. This is an explicitly different mathematical class,
+not a contradiction of R15/R20. The lower endpoint is coarsest for inspection;
+retaining both endpoint extrema preserves the combined one-dimensional query class.
+Serial independent verification multiplies detection floors and adds log-error;
+finite shared masks must survive. 249 exact checks include 75 primitive mixed
+threshold decisions,75 assessments and75 lottery payoff identities. Normal/-O
+receipts agree. Written proof, no new Lean or originality claim. The next bounded
+transfer problem is shared dependence between reward and detection parameters;
+no other model classes were added.

@@ -133,3 +133,13 @@ uncertain block plus known-probability senders. There are 2,822 passing exact
 checks and a separate CI replay. This is a factorial reference, not the whole
 general-context goal or a new Lean result. The next gates and manuscript milestone
 are in [ACTIVE_GOALS.md](ACTIVE_GOALS.md).
+
+
+## R20–R21 — nonbinary enforcement and first inspection transfer
+
+[R20](research/nonbinary_enforcement_2026_09_21/README.md) obtains a genuinely
+continuous minimum report sanction while preserving the old interface, with sharp
+operational error. [R21](research/inspection_transfer_2026_09_21/README.md) then
+changes to probabilistic detection, exhibits equal old interfaces with different
+minimum fines, and derives the necessary lower-endpoint enrichment. Written
+proofs and exact primitive checks; neither phase claims new Lean or priority.

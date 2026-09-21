@@ -55,6 +55,14 @@ trusted exact backends and comparisons to R10/R12 and the primitive R13 game.
 This closes the declared reference-query integration gate; the two Lean bridges
 and continuous-enforcement research remain separate obligations.
 
+The first nonbinary transfer [R20](docs/working-ground/research/nonbinary_enforcement_2026_09_21/README.md)
+proves that the same interface preserves a continuous committed report-sanction
+frontier, with a sharp error bound. The separate
+[inspection test R21](docs/working-ground/research/inspection_transfer_2026_09_21/README.md)
+finds a minimal interface collision and identifies the missing lower detection
+probability. These are written proofs and exact checks, with changed instruments
+and assumptions stated explicitly.
+
 ## Provenance
 
 Established on September 21, 2026 from cooperation-enforcement commit

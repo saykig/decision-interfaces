@@ -1,0 +1,1031 @@
+{
+  "common_order_counterexample": {
+    "common": "1/4",
+    "modelwise": "0"
+  },
+  "dependencies_sha256": {
+    "game_cascade_audit_2026_09_19/experiments/game.py": "9fbb5e7943086dd6c38f95cdd0ff483aaf79dbf388eba9ad404963360b2e65ac",
+    "game_cascade_audit_2026_09_19/experiments/mixed.py": "42509b2f4ff3a8e49e43fa48757fe4a72db772256236e9c9eae827bac7abfedf",
+    "nonbinary_enforcement_2026_09_21/experiments/check.py": "295b33ac09594f643b231236f02d457c0a933a120e5047e6768274245face193"
+  },
+  "evidence": "exact rational primitive state/path checks and trusted Z3 arbitrary-mixed/polytope feasibility; no new Lean proof",
+  "exhaustive_pure_profiles": 98,
+  "interior_counterexample": {
+    "interior": "5/64",
+    "vertices": "1/16"
+  },
+  "nonbinary_values": [
+    {
+      "minimum": "1/12",
+      "t": "1/3"
+    },
+    {
+      "minimum": "1/8",
+      "t": "3/8"
+    },
+    {
+      "minimum": "3/20",
+      "t": "2/5"
+    },
+    {
+      "minimum": "1/4",
+      "t": "1/2"
+    }
+  ],
+  "phase": "R20",
+  "polytope_solver_queries": 64,
+  "primitive_backward_assessments": 94,
+  "primitive_cases": [
+    {
+      "minimum": "3/4",
+      "name": "one",
+      "order": [
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "one",
+      "order": [
+        0
+      ],
+      "sanction": "7499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "one",
+      "order": [
+        0
+      ],
+      "sanction": "3/4",
+      "target": true
+    },
+    {
+      "minimum": "3/4",
+      "name": "one",
+      "order": [
+        0
+      ],
+      "sanction": "7500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2499999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/12",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2500000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "2499999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "1/12",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "two_low",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "2500000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/4",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "2499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "1/4",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "two_high",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "2500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "zero",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "zero",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "5/24",
+      "name": "zero",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "5/24",
+      "name": "zero",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "6249999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "5/24",
+      "name": "zero",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "5/24",
+      "target": true
+    },
+    {
+      "minimum": "5/24",
+      "name": "zero",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "6250000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "sharp_q",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "sharp_q",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2499999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "sharp_q",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/12",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "sharp_q",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2500000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_q",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_q",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "7499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_q",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "3/4",
+      "target": true
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_q",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "7500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "sharp_p",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "sharp_p",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/4",
+      "name": "sharp_p",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/4",
+      "target": true
+    },
+    {
+      "minimum": "1/4",
+      "name": "sharp_p",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_p",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_p",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "7499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_p",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "3/4",
+      "target": true
+    },
+    {
+      "minimum": "3/4",
+      "name": "sharp_p",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "7500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "1687499999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "27/160",
+      "target": true
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "1687500000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "1687499999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "27/160",
+      "target": true
+    },
+    {
+      "minimum": "27/160",
+      "name": "three",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "1687500000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "4062499999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "13/96",
+      "target": true
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "4062500000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "4062499999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "13/96",
+      "target": true
+    },
+    {
+      "minimum": "13/96",
+      "name": "three",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "4062500000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "3062499999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "49/480",
+      "target": true
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "3062500000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "3062499999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "49/480",
+      "target": true
+    },
+    {
+      "minimum": "49/480",
+      "name": "three",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "3062500000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "9/40",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "9/40",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "2249999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "9/40",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "9/40",
+      "target": true
+    },
+    {
+      "minimum": "9/40",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "sanction": "2250000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "5/24",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "5/24",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "6249999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "5/24",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "5/24",
+      "target": true
+    },
+    {
+      "minimum": "5/24",
+      "name": "heterogeneous",
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "sanction": "6250000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "3/20",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "3/20",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "1499999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "3/20",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "3/20",
+      "target": true
+    },
+    {
+      "minimum": "3/20",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "sanction": "1500000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/8",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/8",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "1249999999999999999999999/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/8",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "1/8",
+      "target": true
+    },
+    {
+      "minimum": "1/8",
+      "name": "heterogeneous",
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "sanction": "1250000000000000000000001/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "heterogeneous",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "heterogeneous",
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "sanction": "1/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "heterogeneous",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": true
+    },
+    {
+      "minimum": "0",
+      "name": "heterogeneous",
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "sanction": "1/10000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "large_denominator",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "large_denominator",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2499999999999999999999997/30000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "1/12",
+      "name": "large_denominator",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "1/12",
+      "target": true
+    },
+    {
+      "minimum": "1/12",
+      "name": "large_denominator",
+      "order": [
+        0,
+        1
+      ],
+      "sanction": "2500000000000000000000003/30000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "374999999999999999999999/1000000000000000000000000",
+      "name": "large_denominator",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "0",
+      "target": false
+    },
+    {
+      "minimum": "374999999999999999999999/1000000000000000000000000",
+      "name": "large_denominator",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "3749999999999999999999989/10000000000000000000000000",
+      "target": false
+    },
+    {
+      "minimum": "374999999999999999999999/1000000000000000000000000",
+      "name": "large_denominator",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "374999999999999999999999/1000000000000000000000000",
+      "target": true
+    },
+    {
+      "minimum": "374999999999999999999999/1000000000000000000000000",
+      "name": "large_denominator",
+      "order": [
+        1,
+        0
+      ],
+      "sanction": "3749999999999999999999991/10000000000000000000000000",
+      "target": true
+    }
+  ],
+  "primitive_mixed_queries": 94,
+  "python": "3.9.6",
+  "research_date": "2026-09-21",
+  "sharp_error": {
+    "e_p": "1/4",
+    "e_q": "1/12",
+    "exp_delta": "3/2",
+    "max_cost": "1/4"
+  },
+  "terminal_payoff_translation_checks": 912,
+  "z3": "4.15.3"
+}

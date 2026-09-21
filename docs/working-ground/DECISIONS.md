@@ -342,3 +342,23 @@ backend decision; SAT evidence is rechecked as rational convex weights. Complete
 order evidence is necessary for FULL. Work-limited extraction/solving is UNKNOWN,
 not REFINE. Existing R10/R12 selectors are reused for comparisons in their stated
 classes; factorial reference enumeration is not a new selection theorem.
+
+
+## D58 — September 21, R20: nonbinary enforcement need not enlarge the interface
+
+Changing the scalar instrument to an automatically collected report sanction
+makes the minimum continuous while preserving the old downward interface. This
+follows from an exact terminal-payoff cost shift and monotonicity, not from
+assuming the original binary answer remains sufficient. The full interface and
+one isolated ZERO/FULL answer are different objects. Optimized-only coarseness
+remains open; the proved necessity is for contextual fixed-order queries.
+
+## D59 — September 21, R21: inspection reverses the relevant probability direction
+
+An independent post-action detection component consumes its lower probability,
+whereas disclosure cascades consume upward probability information. Reusing the
+old positive-support summary loses that lower endpoint, even for convex one-
+dimensional families. Record an explicit operation/parameter interpretation,
+recover the source or enrich the interface, and do not present this unsupported
+transfer as a defect in the original theorem. The standard expected-penalty
+calculation is credited rather than claimed as original inspection theory.

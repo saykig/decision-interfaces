@@ -208,3 +208,23 @@ jobs:
           python -O check.py > /tmp/r18-O.json
           cmp /tmp/r18.json /tmp/r18-O.json
           cmp receipt.json /tmp/r18.json
+
+  nonbinary-transfer:
+    name: R20-R21 nonbinary and inspection transfer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install exact game backend
+        run: pip install -r docs/working-ground/research/nonbinary_enforcement_2026_09_21/experiments/requirements.txt
+      - name: Nonbinary and inspection primitive replay
+        run: |
+          python docs/working-ground/research/nonbinary_enforcement_2026_09_21/experiments/check.py > /tmp/r20.json
+          python -O docs/working-ground/research/nonbinary_enforcement_2026_09_21/experiments/check.py > /tmp/r20-O.json
+          cmp /tmp/r20.json /tmp/r20-O.json
+          python docs/working-ground/research/inspection_transfer_2026_09_21/experiments/check.py > /tmp/r21.json
+          python -O docs/working-ground/research/inspection_transfer_2026_09_21/experiments/check.py > /tmp/r21-O.json
+          cmp /tmp/r21.json /tmp/r21-O.json
+          cmp docs/working-ground/research/inspection_transfer_2026_09_21/experiments/receipt.json /tmp/r21.json

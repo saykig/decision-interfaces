@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "certified_interval": 3,
+    "equal_positive_support_endpoint": 1,
+    "erased_mask_wrong_floor": 1,
+    "independent_serial_composition": 3,
+    "lottery_payoff_identity": 75,
+    "primitive_assessment": 75,
+    "primitive_mixed_threshold": 75,
+    "repeat_factor": 8,
+    "robust_attained_threshold": 3,
+    "same_interface_distinct_frontiers": 1,
+    "shared_mask_detection_floor": 1,
+    "strictly_below_fails": 3
+  },
+  "scope": "finite exact primitive checks plus written affine/endpoint proof; not Lean",
+  "source_hashes": {
+    "game_cascade_audit_2026_09_19/experiments/game.py": "9fbb5e7943086dd6c38f95cdd0ff483aaf79dbf388eba9ad404963360b2e65ac",
+    "game_cascade_audit_2026_09_19/experiments/mixed.py": "42509b2f4ff3a8e49e43fa48757fe4a72db772256236e9c9eae827bac7abfedf",
+    "inspection_transfer_2026_09_21/experiments/check.py": "5de5d7c36b60a0723db7328e21cd6a7d73261dc93925604e2b32ae0f1e1a402f"
+  },
+  "status": "pass",
+  "total": 249,
+  "z3": "4.15.3"
+}

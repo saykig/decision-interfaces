@@ -147,3 +147,17 @@ trusts Z3; finite comparisons with cvc5 are not independent proof-kernel replay.
 **Limits:** factorial order enumeration, enumerated finite/tree labels, compressed
 planar blocks only, arbitrary exact V attachments, no diagonal compressed reuse.
 [Full contract, proof and literature](research/composed_queries_2026_09_21/README.md).
+
+
+## R20/R21 nonbinary and inspection transfers — September 21, 2026
+
+**R20 written proof:** actual report-sanction cost substitution; attained family
+and common-order frontier; D sufficiency/contextual fixed-order coarseness; sharp
+error and composition law. [Receipt](research/nonbinary_enforcement_2026_09_21/experiments/receipt.json):
+94 mixed queries,94 primitive assessments,912 payoff identities,98 pure profiles,
+64 polytope queries. **R21 written proof:** probabilistic-detection minimum,
+equal-interface collision, lower-endpoint quotient and serial composition.
+[Receipt](research/inspection_transfer_2026_09_21/experiments/receipt.json):249 checks,
+including75 mixed queries and75 primitive assessments. Both normal/-O receipts
+match. Primitive game and Z3 dependencies are explicit; no new Lean statements,
+independent human review, or historical novelty established by these phases.
