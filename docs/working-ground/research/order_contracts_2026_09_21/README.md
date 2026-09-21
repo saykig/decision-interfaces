@@ -67,8 +67,10 @@ cmp /tmp/r17.json /tmp/r17-O.json
 ```
 
 [Receipt](experiments/receipt.json) binds the two source files. The new CI job
-repeats these commands and validates the retained counts and hashes. Adding a job
-is not itself evidence that a remote run has passed.
+repeats these commands and validates the retained counts and hashes. The run at
+implementation commit `56b97ab1d9ead4d40b3de88d03b1142ec26fc867` passed:
+[Order contract reference](https://github.com/saykig/decision-interfaces/actions/runs/35661398877).
+This covers the executed reference, not the entire mathematical theorem chain.
 
 ## Decisions and next attack
 
@@ -79,7 +81,7 @@ is not itself evidence that a remote run has passed.
   investigate empirical case selection separately.
 
 Read [the interface contract](INTERFACE_CONTRACT.md) and
-[the next mathematical goals](../../../ACTIVE_GOALS.md). First integrate the
+[the next mathematical goals](../../ACTIVE_GOALS.md). First integrate the
 existing R16 decoder with a full-order exact reference on general rational contexts;
 then independently compare against the R10/R12 selection machinery. Preserve the
 source/witness/trust boundaries instead of claiming the general target is already

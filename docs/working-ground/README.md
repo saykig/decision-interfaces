@@ -3,10 +3,15 @@
 **Current ownership — September 21, 2026:** this is the canonical mathematical
 working ground in [decision-interfaces](https://github.com/saykig/decision-interfaces).
 Future theorem development, proofs, verification and mathematical provenance live
-here. [Cooperation-enforcement](https://github.com/saykig/cooperation-enforcement)
-is the Ukraine-focused CEES application/proving ground. See the
-[research programme](../../RESEARCH_PROGRAMME.md) and [handoff record](FOUNDATION_HANDOFF.md).
-The trajectory below is inherited intact; dated “latest” entries describe their phase.
+here. The separate application paper does not set this programme's intellectual
+ceiling or require an empirical transfer before a mathematical manuscript can close.
+See the [research programme](../../RESEARCH_PROGRAMME.md) and
+[handoff record](FOUNDATION_HANDOFF.md).
+
+**Current work:** [active mathematical goals](ACTIVE_GOALS.md),
+[R17 all-order implementation, progress and decisions D53–D55](research/order_contracts_2026_09_21/README.md),
+and [interface contract](research/order_contracts_2026_09_21/INTERFACE_CONTRACT.md).
+The older dated entries below retain their historical scope and evidence status.
 
 The research trajectory behind Cooperation & Enforcement, beginning August 13,
 2026. This area collects the mathematical questions, proofs, counterexamples,
@@ -31,14 +36,12 @@ literature notes, experiments and changes of direction in one place.
 | August 14, 2026 | [Optimized gates and recovery](research/optimized_gate_recovery_2026_08_14/manuscript/RESEARCH_NOTE.md) |
 | September 9, 2026 | [Sequential disclosure and compatible uncertainty](research/sequential_disclosure_2026_09_09/manuscript/RESEARCH_NOTE.md) |
 | September 20, 2026 | [Enforcement-sufficient compression and certified codec](research/enforcement_codec_2026_09_20/manuscript/RESEARCH_NOTE.md) |
+| September 21, 2026 | [Optimal bits and reuse contracts — R16](research/optimal_bits_2026_09_21/README.md) |
+| September 21, 2026 | [All-order reference and operational goals — R17](research/order_contracts_2026_09_21/README.md) |
 
 Each phase includes its available mathematical development, source notes,
-experiments, evidence and limitations. The latest phase returns to the composition
-question through sequential hard evidence: it derives an exact disclosure-order
-criterion and shows that preserving a shared constraint on uncertain local
-probabilities can change the robust enforcement requirement even after optimizing
-the disclosure order. Novelty and empirical validity remain open. The earlier
-large revision experiment remains unrun.
+experiments, evidence and limitations. Novelty and empirical validity remain open.
+The earlier large revision experiment remains unrun.
 
 Use the progress and decision ledgers to add later work and corrections. Keep
 mathematical proofs, numerical checks and formal verification clearly distinguished.
@@ -120,3 +123,12 @@ separates source-readable verification from payload size, and proves unlimited
 repeat reuse cannot have finite worst-case bits at a fixed final margin. It
 extends the information rate to fixed dimension and error budgeting to labelled
 trees. Written proofs and exact executable checks; no new Lean or priority claim.
+
+## Current result — R17, September 21
+
+[All-order reference](research/order_contracts_2026_09_21/README.md) implements
+source-checked ZERO/FULL/REFINE decisions for every permutation of one planar
+uncertain block plus known-probability senders. There are 2,822 passing exact
+checks and a separate CI replay. This is a factorial reference, not the whole
+general-context goal or a new Lean result. The next gates and manuscript milestone
+are in [ACTIVE_GOALS.md](ACTIVE_GOALS.md).

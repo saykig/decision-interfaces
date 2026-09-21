@@ -1,6 +1,6 @@
 # Verification ledger
 
-**Last structural audit:** September 20, 2026.
+**Last structural audit:** September 21, 2026.
 
 This file records what kind of evidence exists for each mathematical phase. It is
 deliberately conservative. A written proof, an exact finite computation, a
@@ -111,3 +111,22 @@ assignments; all normal/optimized receipts agree.
 no implemented high-dimensional codebook, general order optimizer or optimal
 query-time theorem. Repository workflow added; local checks are the evidence
 recorded here. See [gate reports](research/optimal_bits_2026_09_21/README.md).
+
+## R17 — September 21 all-order reference and interface contract
+
+[Phase record and D53–D55](research/order_contracts_2026_09_21/README.md).
+**Implemented:** exact full-permutation reference for one planar convex block and
+any finite number of exact known-probability senders; source-backed lower/outer
+sandwich checks; ZERO/FULL/REFINE and a distinct UNKNOWN work-budget result.
+**Executed:** 2,822 checks, including 150 independent raw-polynomial SymPy
+comparisons across every order of selected n=3,4,5 instances. Tests through n=6
+for singleton sources. Normal and optimized Python outputs agree; saved source
+hashes match the committed files. The new order-contract CI passed at `56b97ab`.
+**Not established:** new historical novelty, Lean proof, fast selection, binary
+codec integration, arbitrary uncertain attachments or tree strategic optimization.
+The comparator shares the inherited cascade theorem, not its threshold-reduction
+code. No independent extensive-form game rederivation was executed in R17.
+
+The next assurance priority is still full R08/R14 target existence and the R15
+interface-to-margin bridge. Mathematical exploration and general query integration
+may proceed in parallel; see [ACTIVE_GOALS.md](ACTIVE_GOALS.md).
