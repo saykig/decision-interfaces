@@ -4,6 +4,15 @@ The goal is not to formalize every exploratory calculation. Formal verification
 should attack the assumptions on which later results depend and the claims most
 likely to enter the thesis.
 
+## September 21 execution status
+
+[R19A](research/strategic_equilibrium_2026_09_21/README.md) closes Priority 0.1:
+actual explicit-belief assessments, mixed no-rescue, constructive sufficiency,
+arbitrary permutations and the attained minimum now have a fresh 163-declaration
+Lean audit. The older detailed entries below preserve the previous backlog state.
+Gate B2's interface bridge is the current assurance target; the binary encoder
+and classical entropy proofs remain outside the immediate formal scope.
+
 ## Priority 0 — thesis-bearing chain
 
 ### 1. R08 game-to-cascade theorem

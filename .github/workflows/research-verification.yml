@@ -185,11 +185,11 @@ jobs:
       - name: R05 fixed-information game proof
         run: |
           python3 docs/working-ground/research/disclosure_boundaries_2026_08_14/lean/verify.py             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages             --lean lean >/tmp/r05-lean.json
-      - name: R14 primitive belief and continuation bridge
+      - name: R14-R19A primitive bridge and actual equilibrium theorem
         run: |
-          python3 docs/working-ground/research/lean_belief_bridge_2026_09_19/lean/verify.py \
+          python3 docs/working-ground/research/strategic_equilibrium_2026_09_21/lean/verify.py \
             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
-            --lean lean >/tmp/r14-lean.json
+            --lean lean --output /tmp/r19a-lean.json
 
   composed-query-reference:
     name: R18 source-bound composed query reference

@@ -371,3 +371,13 @@ not an injective provenance key. Keep nested bindings and test distinct names
 that formerly collided. A use-count or separate-weights-list check is also too
 weak to guard reuse semantics: retain an actual independent-versus-diagonal
 strategic separation fixture. Original receipts remain immutable historical evidence.
+
+
+## D61 — September 21, R19A: derive equilibrium from unrestricted beliefs
+
+The formal equilibrium object contains primitive mixed best replies and an actual
+Bayesian consistency sequence. It does not contain the blocker formula. Arbitrary
+belief fields normalize uniquely by R14, and only then does backward induction
+derive the blocker characterization. The theorem is existential; it does not
+promote favorable ties to an all-equilibria silence claim. Original narrower
+R14 receipts remain historical evidence rather than being overwritten.

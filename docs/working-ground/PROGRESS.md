@@ -468,7 +468,7 @@ continuation weights are nonnegative and sum to one.
 The fresh build audits **119 named declarations** with only standard Lean axioms.
 The retained receipt binds every source and the verifier. Exact finite fidelity
 checks independently compare R14's definitions with R13's recursive evaluator:
-844 posteriors, 4,944 normalized kernels, 9,888 path expectations, 408 sender gains,
+844 posteriors, 4, 944 normalized kernels, 9,888 path expectations, 408 sender gains,
 and 204 cascade comparisons across 28 designed profiles at n=1..4. Normal and
 optimized Python agree. These computations supplement, rather than prove, the
 arbitrary-n formal statements. Added CI replay of the full audit and fidelity suite.
@@ -611,7 +611,7 @@ inherit the error accounting. No optimized-only coarseness claim is made.
 
 **Evidence:** complete written cost-substitution/backward proofs; 94 primitive
 mixed queries, 94 backward assessments, 912 payoff identities, 98 exhaustive pure
-profiles,64 exact continuum queries; normal/optimized receipts match. No new Lean
+profiles, 64 exact continuum queries; normal/optimized receipts match. No new Lean
 or candidate-original label. Next: change only sanction observability and test
 whether the interface still preserves the minimum.
 
@@ -626,7 +626,7 @@ not a contradiction of R15/R20. The lower endpoint is coarsest for inspection;
 retaining both endpoint extrema preserves the combined one-dimensional query class.
 Serial independent verification multiplies detection floors and adds log-error;
 finite shared masks must survive. 249 exact checks include 75 primitive mixed
-threshold decisions,75 assessments and75 lottery payoff identities. Normal/-O
+threshold decisions,75 assessments and 75 lottery payoff identities. Normal/-O
 receipts agree. Written proof, no new Lean or originality claim. The next bounded
 transfer problem is shared dependence between reward and detection parameters;
 no other model classes were added.
@@ -639,6 +639,26 @@ colon could overwrite a provenance binding, although strategic answers remained
 correct. Nested component/label maps now preserve both source identities. A new
 fixture distinguishes independent reuse (FULL) from the same-parameter diagonal
 (ZERO) at all ratios 17/256 on the two-coordinate tradeoff segment. The updated
-suite passes454 checks with213 rational witness replays; normal/-O outputs agree.
-The original424-check receipt is preserved as receipt_b030010.json. This corrects
+suite passes 454 checks with 213 rational witness replays; normal/-O outputs agree.
+The original 424-check receipt is preserved as receipt_b030010.json. This corrects
 an implementation provenance bug without rewriting the earlier evidence.
+
+
+## R19A — September 21: full assessment-to-blocker Lean bridge
+
+[R19A](research/strategic_equilibrium_2026_09_21/README.md) proves the actual
+sequential-equilibrium target-existence theorem from R14's primitive game for
+arbitrary finite positive sender count. An unrestricted assessment carries public
+and private belief fields; consistency is an actual common fully mixed sequence.
+The normalization theorem derives its canonical beliefs. Sequential rationality
+compares primitive expected utilities, not an assumed cascade condition. Reverse
+induction excludes every mixed rescue; the latest-blocker construction verifies
+all histories. A named permutation corollary and raw-assessment IsLeast theorem
+establish the attained 0-or-B minimum with favorable ties.
+
+**Formal evidence:** fresh Lean 4.33.1/pinned Mathlib build of seven modules,
+163 axiom-audited declarations (119 inherited, 44 new), only propext,
+Classical.choice and Quot.sound. Source/verifier hashes match the receipt.
+No original R14 source or receipt was changed. This resolves Gate B1's prior
+formal gap; empirical validity, external kernel replay and human model review
+remain separate. Next: complete Gate B2's operational interface bridge.

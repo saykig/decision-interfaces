@@ -46,7 +46,7 @@ by which method**.
 | R12 fixed-dimensional selection | **Written proof:** polynomial-bit decision/order output at fixed affine dimension; two scoped sharpness refinements | 14 saved bundles replayed; 132 direct full-order comparisons with independent cvc5 encoding, 42 prior-Sturm comparisons, three rational AM-GM success certificates; exact side-refinement checks | none; general emptiness uses solver-trusted replay, not an external CPC kernel | R08 full target-existence theorem remains unformalized (R14 closes its primitive bridge); growing dimension unresolved; no complete solver-free polygon certificate format claimed |
 | R13 independent strategic audit | **Complete written primitive derivation:** unique consistent beliefs, full mixed continuation conditions, both directions of R08 and attained fine 0 or B | 3,324 exhaustive pure profiles; 139 mixed real-arithmetic decisions; 142 constructed assessments; 312 polynomial-tremble belief checks; normal/optimized receipts agree | none; exact mixed solver retains backend trust | R14 formalizes its belief/receiver/continuation bridge; arbitrary-n equilibrium-existence construction remains informal; fixed-order suite is not an exhaustive check of adaptive policies |
 
-| R14 Lean belief and continuation bridge | Unique consistent beliefs, receiver best replies, full mixed sender gains and normalized behavioral continuation kernel for arbitrary finite n | fresh pinned compilation of six modules; all 119 named declarations axiom-audited; 844 posterior, 4,944 kernel, 9,888 path, 408 sender-gain and 204 cascade comparisons; normal/optimized receipts agree | **Lean checked:** actual Nature/action likelihoods and Bayesian conditioning, global off-path limit existence/uniqueness, primitive expected payoffs and derived mixed continuation gain; only standard axioms | full assessment/sequential-equilibrium existence, backward construction, silent-target characterization and attained 0-or-B minimum remain unformalized; no external kernel or independent human model review |
+| R14 Lean belief and continuation bridge | Unique consistent beliefs, receiver best replies, full mixed sender gains and normalized behavioral continuation kernel for arbitrary finite n | fresh pinned compilation of six modules; all 119 named declarations axiom-audited; 844 posterior, 4, 944 kernel, 9,888 path, 408 sender-gain and 204 cascade comparisons; normal/optimized receipts agree | **Lean checked:** actual Nature/action likelihoods and Bayesian conditioning, global off-path limit existence/uniqueness, primitive expected payoffs and derived mixed continuation gain; only standard axioms | full assessment/sequential-equilibrium existence, backward construction, silent-target characterization and attained 0-or-B minimum remain unformalized; no external kernel or independent human model review |
 | R15 enforcement compression and codec | exact contextual interface discrepancy, independent-composition error law, gamma-separated storage bounds, planar proof-carrying codec, finite shared-label rule | originating run: **19,264 exact rational checks**, **250 valid compact bundles**, **250 corruption rejections**, clean pre-transfer replay; executable package not yet committed for CI replay | none for R15; written proofs only | operational metric, storage bounds and shared-interface theorem remain unformalized; general-dimensional encoder, logarithmic gap, optimized-value-only minimality and historical novelty remain open |
 
 R06 was a preservation/trajectory phase and introduced no new mathematical claim.
@@ -154,19 +154,34 @@ planar blocks only, arbitrary exact V attachments, no diagonal compressed reuse.
 **R20 written proof:** actual report-sanction cost substitution; attained family
 and common-order frontier; D sufficiency/contextual fixed-order coarseness; sharp
 error and composition law. [Receipt](research/nonbinary_enforcement_2026_09_21/experiments/receipt.json):
-94 mixed queries,94 primitive assessments,912 payoff identities,98 pure profiles,
+94 mixed queries, 94 primitive assessments, 912 payoff identities, 98 pure profiles,
 64 polytope queries. **R21 written proof:** probabilistic-detection minimum,
 equal-interface collision, lower-endpoint quotient and serial composition.
 [Receipt](research/inspection_transfer_2026_09_21/experiments/receipt.json):249 checks,
-including75 mixed queries and75 primitive assessments. Both normal/-O receipts
+including 75 mixed queries and 75 primitive assessments. Both normal/-O receipts
 match. Primitive game and Z3 dependencies are explicit; no new Lean statements,
 independent human review, or historical novelty established by these phases.
 
 
 ### R18 corrected provenance edition
 
-The post-b030010 receipt has454 checks, including213 rational witness replays,
+The post-b030010 receipt has 454 checks, including 213 rational witness replays,
 structured-name source-binding controls and a decisive independent-vs-diagonal
-reuse fixture. The previous424-check receipt remains under its commit-labelled
+reuse fixture. The previous 424-check receipt remains under its commit-labelled
 filename. Normal/-O receipts match. The provenance-key fix does not change the
 mathematical query reduction or backend trust; it repairs source identity loss.
+
+
+## R19A actual target existence — September 21, 2026
+
+**Lean checked:** `raw_equilibrium_normalization`, `no_mixed_rescue`,
+`raw_target_iff_blocker`, `ordered_raw_target_iff_blocker`, `raw_attained_minimum`,
+and their construction lemmas in the new R14-adjacent Equilibrium module.
+[Fresh receipt](research/strategic_equilibrium_2026_09_21/results/lean_equilibrium_2026_09_21.json)
+records seven rebuilt modules, 163 declarations (44 new), Lean 4.33.1 and Mathlib
+0df444a360eaa60ab8c11dca51a86af692955474. All transitive axiom lists contain only
+propext, Classical.choice, Quot.sound. There are no admitted proofs/custom axioms.
+This supersedes the current full-equilibrium gap in the historical phase matrix;
+R14's 119-declaration receipt and original sources retain their historical scope.
+[Formal assumptions and model map](research/strategic_equilibrium_2026_09_21/FORMAL_SCOPE.md)
+remain essential. No external independent kernel or human proof review is claimed.

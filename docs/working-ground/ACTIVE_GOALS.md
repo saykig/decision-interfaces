@@ -66,6 +66,15 @@ coverage prematurely. No new formalization was executed when writing this plan.
 Why: the first bridge checks that the formula describes the actors; the second
 checks that a compressed description cannot change the justified decision.
 
+### September 21 strategic formalization update
+
+[R19A](research/strategic_equilibrium_2026_09_21/README.md) completes Gate B1 with
+actual explicit-belief assessments and primitive sequential rationality, both
+backward directions, arbitrary mixed continuations and the attained minimum.
+The fresh seven-module Lean build audits 163 declarations with only standard
+axioms. Gate B2's separate operational interface work remains the next formal
+obligation; R14's historical scope and receipts are unchanged.
+
 ## Gate C — test a genuinely nonbinary enforcement frontier
 
 Use one explicit finite strategic model in which action incentives generate a

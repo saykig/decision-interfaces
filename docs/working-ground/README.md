@@ -143,3 +143,12 @@ operational error. [R21](research/inspection_transfer_2026_09_21/README.md) then
 changes to probabilistic detection, exhibits equal old interfaces with different
 minimum fines, and derives the necessary lower-endpoint enrichment. Written
 proofs and exact primitive checks; neither phase claims new Lean or priority.
+
+
+## R19A — actual strategic existence formally checked
+
+[R19A](research/strategic_equilibrium_2026_09_21/README.md) extends R14 to explicit
+belief assessments, sequential rationality at every history, arbitrary mixed
+no-rescue, the blocker construction, and the attained 0-or-B minimum. Seven freshly
+rebuilt modules and 163 audited declarations (44 new) use only standard axioms.
+This closes the current full-existence gap without rewriting R14's history.

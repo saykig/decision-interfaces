@@ -39,10 +39,11 @@ evidence. See the [research programme and citation contract](RESEARCH_PROGRAMME.
 - [Import provenance and recovery](docs/working-ground/FOUNDATION_HANDOFF.md)
 
 R16 records matching planar storage rates and a bounded-versus-unlimited reuse
-boundary, with written proofs and exact executable evidence. R14 has scoped Lean
-coverage of beliefs, receiver choices and continuation gains. Full target-existence
-and the attained minimum-fine theorem remain written proofs; R15/R16 have no new
-Lean proofs. Historical missing executables and unrun experiments remain explicitly
+boundary, with written proofs and exact executable evidence. R14 checks beliefs,
+receiver choices and continuation gains. [R19A](docs/working-ground/research/strategic_equilibrium_2026_09_21/README.md)
+now completes actual target-equilibrium existence and the attained minimum in Lean:
+a fresh build audits 163 declarations, including 44 new declarations, with only
+standard axioms. R15/R16's original receipts retain their historical proof scope. Historical missing executables and unrun experiments remain explicitly
 recorded. A green CI run covers only the suites and formal statements it executes.
 
 ## Current executable coverage
@@ -52,8 +53,8 @@ connects R16 binary payloads to arbitrary rational V-polytope attachments, multi
 compressed components, bounded repeated independent occurrences, and exact finite
 label/tree masks. It preserves ZERO/FULL/REFINE/UNKNOWN, with rational witnesses,
 trusted exact backends and comparisons to R10/R12 and the primitive R13 game.
-This closes the declared reference-query integration gate; the two Lean bridges
-and continuous-enforcement research remain separate obligations.
+This closes the declared reference-query integration gate. The strategic Lean
+bridge is complete; the interface Lean bridge has its separate scope and receipt.
 
 The first nonbinary transfer [R20](docs/working-ground/research/nonbinary_enforcement_2026_09_21/README.md)
 proves that the same interface preserves a continuous committed report-sanction
