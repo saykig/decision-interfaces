@@ -662,3 +662,31 @@ Classical.choice and Quot.sound. Source/verifier hashes match the receipt.
 No original R14 source or receipt was changed. This resolves Gate B1's prior
 formal gap; empirical validity, external kernel replay and human model review
 remain separate. Next: complete Gate B2's operational interface bridge.
+
+
+## R19B — September 21: checked interface-to-strategy chain
+
+[R19B](research/interface_bridge_2026_09_21/README.md) completes Gate B2:
+vertex domination lifts to the actual log support; Sion derives the actual max-min
+margin formula; a sorted suffix construction with one extra sender attains the
+discrepancy; rational cost perturbations preserve every strictly separated query.
+Actual independent-product supports factor, directed errors add, and finite-code
+collisions under unlimited reuse amplify into opposite rational-query decisions.
+Finite labels and common orders retain their quantifiers. Masked tree messages
+compute maxima over full compatible assignments, distinguishing infeasibility
+from a feasible zero budget. The concrete recursive tree is binary; an arbitrary
+finite-child node induction contract is also checked.
+
+The additional joined proof connects these margins directly to R19A raw strategic
+assessments, including one common order across all models. Fresh audits cover
+126 interface declarations and 237 joined declarations (overlapping counts),
+using only standard axioms; all source/verifier hashes match retained receipts.
+No entropy theorem or executable adapter is claimed formalized. Seven explicit
+LEAN judgments, proof-route corrections, borrowed ingredients and replay limits
+are recorded in the phase README.
+
+[The first-paper package](FIRST_PAPER_PACKAGE.md) now maps all nine obligations
+to evidence and remaining gaps. Gates A/B/C and one subsequent inspection test
+have been executed. Next bounded paper task: integrate the manuscript and conduct
+independent statement/source review; next implementation assurance: certify the
+adapter. Further mathematical transfer remains a separate follow-on.

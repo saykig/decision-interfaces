@@ -168,3 +168,20 @@ they are easy to formalize. After R08/R14 assessment existence, target:
 The [R16 candidate theorem and plan](research/optimal_bits_2026_09_21/sources/NOTES.md)
 states assumptions, closest literature and priority uncertainty. No R16 Lean
 formalization has been started. Fast certificate/query complexity remains open.
+
+
+## R19A/R19B resolution — September 21, 2026
+
+The earlier assessment-existence and seven interface bridge priorities above are
+now checked in [R19A](research/strategic_equilibrium_2026_09_21/README.md) and
+[R19B](research/interface_bridge_2026_09_21/README.md). The latter also derives Sion
+for the actual margin, proves rational-query separation, and joins that result
+to raw equilibrium assessments with explicit common-order quantifiers. Fresh
+receipts audit 163 (R19A), 126 (interface), and 237 (joined) declarations; these
+scopes overlap and are not additive. Historical entries retain their dated scope.
+
+Next bounded assurance priorities: independent theorem-statement/model review;
+external replay of the frozen sources; executable R16/R18 table/query adapters.
+The tree proof covers binary full recursion and an arbitrary finite-child node
+contract, not byte-level equivalence to arbitrary-arity Python tables. Borrowed
+entropy remains outside Lean; exact-interface coarseness is still a written proof.

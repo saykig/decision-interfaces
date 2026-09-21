@@ -154,7 +154,7 @@ jobs:
           PY
 
   lean-existing:
-    name: Existing Lean proof scope
+    name: Lean strategic and interface proof scope
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -185,11 +185,16 @@ jobs:
       - name: R05 fixed-information game proof
         run: |
           python3 docs/working-ground/research/disclosure_boundaries_2026_08_14/lean/verify.py             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages             --lean lean >/tmp/r05-lean.json
-      - name: R14-R19A primitive bridge and actual equilibrium theorem
+      - name: R19B interface, rational separation, reuse and tree budgets
         run: |
-          python3 docs/working-ground/research/strategic_equilibrium_2026_09_21/lean/verify.py \
+          python3 docs/working-ground/research/interface_bridge_2026_09_21/lean/verify.py \
             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
-            --lean lean --output /tmp/r19a-lean.json
+            --lean lean --output /tmp/r19b-lean.json
+      - name: R14-R19 actual equilibrium and joined game-interface theorem
+        run: |
+          python3 docs/working-ground/research/interface_bridge_2026_09_21/lean/verify_game.py \
+            --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
+            --lean lean --output /tmp/r19-game-interface.json
 
   composed-query-reference:
     name: R18 source-bound composed query reference

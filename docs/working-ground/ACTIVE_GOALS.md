@@ -16,9 +16,10 @@ reuse and revision operations?
 
 R15/R16 give written exact-interface, operational-error, compression-rate and
 finite/unlimited-reuse results for the declared hard-evidence benchmark. R14 checks
-beliefs, receiver choices and mixed continuation gains in Lean, not the full target-
-existence theorem. R17 now provides a tested arbitrary-order reference for one
-planar uncertain block with known-probability senders. None of this is a claim of
+beliefs, receiver choices and mixed continuation gains in Lean; R19A now adds
+actual target existence and attained enforcement. R19B checks the operational
+interface and its direct game interpretation. R18 extends R17 to the declared
+composed all-order reference contract. None of this is a claim of
 novel geometric entropy or a universal enforcement architecture.
 
 ## Gate A — finish usable query coverage
@@ -72,8 +73,17 @@ checks that a compressed description cannot change the justified decision.
 actual explicit-belief assessments and primitive sequential rationality, both
 backward directions, arbitrary mixed continuations and the attained minimum.
 The fresh seven-module Lean build audits 163 declarations with only standard
-axioms. Gate B2's separate operational interface work remains the next formal
-obligation; R14's historical scope and receipts are unchanged.
+axioms. R14's historical scope and receipts are unchanged.
+
+### September 21 interface formalization update
+
+[R19B](research/interface_bridge_2026_09_21/README.md) completes all seven Gate B2
+bridges, including actual Sion margins, rational-query contextual separation and
+a genuine finite-code unlimited-reuse impossibility. Fresh interface/joined audits
+cover 126/237 overlapping declarations and connect the margin to actual raw
+equilibrium assessments with the common-order quantifier. Tree semantics preserve
+infeasible masks. Executable adapters, entropy and human/external review remain
+explicit scope boundaries; see [the first-paper package](FIRST_PAPER_PACKAGE.md).
 
 ## Gate C — test a genuinely nonbinary enforcement frontier
 
@@ -102,7 +112,7 @@ missing lower detection probability yields a minimal enrichment and composition
 rule. Both have written proofs and exact primitive checks; neither is new Lean.
 Do not add dynamics, bargaining and vector instruments simultaneously. The next
 bounded mathematical transfer is joint reward/detection dependence; first finish
-the core paper's assurance map and outstanding Gate B formal obligations.
+the core paper's integrated manuscript and independent statement review.
 
 ## Literature and serendipity
 
@@ -127,6 +137,7 @@ formal and human-review gaps explicitly. Empirical transfer, Ukraine analysis,
 a welfare theory, dynamics and bargaining are not prerequisites for that manuscript.
 
 The programme continues by deriving interfaces between genuinely different model
-classes. Gates A/B are definite next tasks. Gate C's answer determines whether the
-next step is a larger interface, a sharper impossibility, or a broader sufficiency
-theorem; do not precommit to a distant sequence of extensions.
+classes. Gates A/B/C and one inspection transfer have now been executed. The
+[first-paper package](FIRST_PAPER_PACKAGE.md) records the earned contract and
+remaining closure gaps. Integrated exposition and independent review are next;
+do not precommit to a distant sequence of extensions.

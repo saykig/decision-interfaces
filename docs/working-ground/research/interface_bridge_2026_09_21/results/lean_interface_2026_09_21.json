@@ -1,0 +1,659 @@
+{
+  "audit_sha256": "d33b80813bd3579c1efc599e0728b1316d6e747651bdd96dd98a5fe78f5e00b9",
+  "audited_declarations": {
+    "DecisionInterface.BudgetAdd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetChoiceSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetChoices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetForestSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetMax": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetRepresents": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetSumSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetSums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.Assignment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.Compatible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.assignmentTotal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.attainable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.branchValues": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.globalMessage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.message": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.BudgetTree.rootLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Directed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.MaxValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.MinValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.ReuseQuery": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.ScalarDecoderCorrect": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.ScalarRationalDecoderCorrect": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Simplex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.WeightBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.assignment_budget_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.attainment_costs_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_add_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_branch_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_choices_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_forest_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_fork_attainable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_leaf_attainable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_masked_choices_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_max_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_none": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.budget_singleton": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.collision_impossible": [],
+    "DecisionInterface.common_order_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_attainment_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_dual_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_primal_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_primal_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.coordinateMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.coordinate_minimum_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.cumulative_suffix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_kfold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_product_addition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_sum_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_value_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_value_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.dualObjective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.finite_masked_node_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.inducedWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.induced_weight_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.label_budget_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.logScore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_concave": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_domination": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_support_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.margin_cost_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_finite_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.min_le_weighted": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.min_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.minimax_dual_min": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.no_finite_code_unlimited_rational_reuse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.no_finite_code_unlimited_reuse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.one_sender_attainment_from_families": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.one_sender_contextual_attainment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.one_sender_opposite_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.one_sender_rational_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.one_sender_suffix_realization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.pointMargin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.point_margin_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.primal_margin_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.primal_margin_has_dual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.productFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.rational_log_approximation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.rational_vertex_sandwich": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sandwich_box_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sandwich_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalarProbability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_collision_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_probability_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_probability_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_probability_rational": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_probability_strictAnti": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_rational_collision_impossible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.scalar_repeated_directed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.simplex_min_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.singleton_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.suffixMatrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.suffix_matrix_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sum_profile_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.supportValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_domination": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_error_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_global_message_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_infeasible_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_local_profile_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_message_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.unbounded_reuse_amplifies": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.unlimited_reuse_forces_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.vertex_domination_lifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightCDF": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightCDF_at": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightCDF_end": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightCDF_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightCDF_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weight_box_compact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightedPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_continuous_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_convex_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_score_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "compiler_output": {
+    "Attainment": "",
+    "Interface": "",
+    "RationalQueries": "",
+    "Realization": "",
+    "Reuse": "",
+    "TreeBudget": "TreeBudget.lean:101:33: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead\nTreeBudget.lean:139:31: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead\nTreeBudget.lean:225:55: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead\nTreeBudget.lean:300:31: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead\n"
+  },
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "modules": [
+    "Interface",
+    "Realization",
+    "Attainment",
+    "RationalQueries",
+    "Reuse",
+    "TreeBudget"
+  ],
+  "source_sha256": {
+    "Attainment.lean": "08fade38bf72914fe16a960ee7288890621cf9e66a7ea6e52583f63cc3a0a01c",
+    "Interface.lean": "19b78bab356045198e05f9e7b3e53395ec01cd28ef85c08ede24ad012e6c5155",
+    "RationalQueries.lean": "71fe9790434d2ebaf28c8559ec8a91d822e57e75c15a0f82c22b4f3e8ea4f481",
+    "Realization.lean": "3c4c866a1d29144a64b3f143b4d48cca6aaf683ec676e3105215b35a97e24c9f",
+    "Reuse.lean": "01bf0ee316c4ed2595e34f4c287f47361c14e8d7d7fb6e7fdbc21e8ef00e78cd",
+    "TreeBudget.lean": "2415af9f48e7d1881e5394aa1c87ffe5932755a32e035e5ec8dbcf3fc72fc9bd"
+  },
+  "status": "Lean checked; formal scope only",
+  "toolchain": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "verifier_sha256": "367a47524f223d40c9ee51e2a359d892d8f5b6382e4d7bfcc1c4bb24e6213cff"
+}

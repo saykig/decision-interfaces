@@ -56,8 +56,8 @@ For η=1,k=1/2, compare the rational convex sources
 
 Both have downward set [0,1/2] and exactly the same positive log support for every
 weight, but e*(U)=1 and e*(V)=2. At e=1, the q=1/4 model in V still strictly
-prefers reporting; at e=2 it has a favorable exact tie. One uncertain coordinate
-and one player with a genuine action choice suffice. With no uncertain coordinate
+prefers reporting; at e=2 it has a favorable exact tie. One uncertain detection coordinate
+and one informed sender suffice; the receiver retains its own action choice. With no uncertain coordinate
 there cannot be two different component families, so this is dimension-minimal
 for the stated transfer. No claim of universal game-theoretic minimality is made.
 

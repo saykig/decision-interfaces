@@ -185,3 +185,29 @@ This supersedes the current full-equilibrium gap in the historical phase matrix;
 R14's 119-declaration receipt and original sources retain their historical scope.
 [Formal assumptions and model map](research/strategic_equilibrium_2026_09_21/FORMAL_SCOPE.md)
 remain essential. No external independent kernel or human proof review is claimed.
+
+
+## R19B interface and joined game bridge — September 21, 2026
+
+**Fresh Lean evidence:** [interface receipt](research/interface_bridge_2026_09_21/results/lean_interface_2026_09_21.json)
+audits 126 declarations across Interface, Realization, Attainment, RationalQueries,
+Reuse and TreeBudget. [Joined receipt](research/interface_bridge_2026_09_21/results/lean_game_interface_2026_09_21.json)
+audits 237 declarations across the seven R14/R19A modules plus Interface and
+GameInterface. Counts overlap. Both use Lean 4.33.1 and pinned Mathlib
+0df444a360eaa60ab8c11dca51a86af692955474. Every source and verifier hash was
+rechecked against the receipts; only propext, Classical.choice and Quot.sound
+occur in transitive axiom dependencies. TreeBudget has four deprecated-simp-name
+warnings; no admitted proof or custom axiom is accepted.
+
+**Checked contract:** rational sandwich in reals, actual support and Sion max-min
+margin, one-sender attainment, rational query separation, exact independent
+product discrepancy, finite and unlimited reuse, labels/common orders, compatible
+assignment tree budgets, and the direct margin-to-raw-equilibrium interpretation.
+See [precise scope](research/interface_bridge_2026_09_21/README.md).
+
+**Evidence limits:** dependency oleans are reused; phase modules are rebuilt in
+fresh temporary directories. No external independent kernel build or human model-
+fidelity review is claimed. Codec parsing, executable-to-formal adapters, entropy
+rates and exact-interface coarseness remain outside the new formal proof scope.
+The workflow now rebuilds both interface and joined scopes on every relevant push;
+the joined scope also covers all previously audited R19A declarations.

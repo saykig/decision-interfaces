@@ -381,3 +381,24 @@ belief fields normalize uniquely by R14, and only then does backward induction
 derive the blocker characterization. The theorem is existential; it does not
 promote favorable ties to an all-equilibria silence claim. Original narrower
 R14 receipts remain historical evidence rather than being overwritten.
+
+
+## D62 — September 21, R19B: derive the margin before using it
+
+Formalize actual log support and actual max-min incentives, derive their duality
+with Sion, and join the result to the primitive raw assessment theorem. Neither
+a dual objective nor a blocker condition may substitute for the object being
+explained. One-extra-sender attainment must realize suffix weights and rational
+query separation explicitly. The unlimited-reuse result must construct a finite
+code collision and amplify it into a permitted separated query. Standard Sion,
+compactness and pigeonhole ingredients carry no new priority claim.
+
+## D63 — September 21, R19B: preserve feasible assignments and proof scope
+
+Tree budget messages are optional real maxima over actual compatible full
+assignments. No compatible assignment is `none`, not numerical zero. Error
+transport assumes the proved per-assignment sum bound and preserves the finite
+mask; it does not solve strategic order optimization. The binary-tree recursive
+proof and arbitrary finite-child induction contract do not certify executable
+arbitrary-arity table adapters. The paper package records this boundary alongside
+unformalized entropy and independent human/kernel review obligations.

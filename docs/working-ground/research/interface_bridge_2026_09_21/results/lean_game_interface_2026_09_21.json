@@ -1,0 +1,1190 @@
+{
+  "audit_sha256": "cff3439e286578c5d9351b83b8b5b37551693494f2b2598a425a552330051344",
+  "audited_declarations": {
+    "Cooperation.Assessment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.Assessment.Consistent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.Assessment.privateBelief": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.Assessment.publicBelief": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.BestReply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.CompletePast": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.Feasible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.FullyMixed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.Hist": [],
+    "Cooperation.Info": [],
+    "Cooperation.RawAssessment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.RawAssessment.Consistent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.RawSequentialEquilibrium": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.RawTargetExists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.SenderBestReply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.SequentialEquilibrium": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.SilentTarget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.Strategy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.TargetExists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.WeakBlocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.actionProbability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.all_positive_le_coordinate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.all_positive_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.atom": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.atom_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.attained_minimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bayes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bayes_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bayes_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.belief": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.belief_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.belief_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.belief_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bern": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bern_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bern_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bestReply_negative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bestReply_nonpos_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bestReply_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.bestReply_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blockerStrategy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_at_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_feasible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_future_after": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_future_before": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_sender_rational": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_silent_path": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.blocker_target_equilibrium": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.broken_path_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.compatiblePath": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.compatible_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.completeInfo": [
+      "propext"
+    ],
+    "Cooperation.completeInfo_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.completeInfo_length": [
+      "propext"
+    ],
+    "Cooperation.completePast_eq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.completeRule": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.complete_bestReply_above": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.complete_bestReply_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.complete_receiver_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.consistent_beliefs_exist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.consistent_beliefs_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuationWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuation_bridge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuation_probability_kernel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuation_weight_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuation_weight_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.continuation_weight_tree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.defectPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.equilibrium_chain_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.evidence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.feasible_action_probability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.feasible_fines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.forcedTransition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.forced_transition_at": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.forced_transition_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.full_profile_consistency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.future_integration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.future_private_unseen": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.global_consistency_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.global_consistency_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.incomplete_receiver_strict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.joint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.joint_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.last_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.likelihood": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.localMass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.localMass_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mass_known": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mass_report": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mass_silent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mass_unseen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.minimumFine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mixedPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.mixed_tie_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.nature": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.nature_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.nature_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.no_mixed_rescue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.normalizer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.normalizer_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.normalizer_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.observed": [],
+    "Cooperation.ordered_raw_target_iff_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.pastInfo": [
+      "propext"
+    ],
+    "Cooperation.pastInfo_complete": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Cooperation.pathExpectation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.path_expectation_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.posterior": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.posterior_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.posterior_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.prefixLikelihood": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.prefixLikelihood_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.privateLikelihood": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.privateLikelihood_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.privateObserved": [],
+    "Cooperation.private_conditioning_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.public_conditioning_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.rateAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.rate_feasible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.rate_mixed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.rate_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.rawSenderPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.raw_attained_minimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.raw_equilibrium_normalization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.raw_target_iff_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.raw_target_iff_canonical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.receiverGain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.receiver_gain_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.receiver_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.receiver_silence_at_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.senderBayes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.senderBayes_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.senderPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_bayes_limit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_bestReply_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_gain_broken": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_gain_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_gain_zero_receiver": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_indifferent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_strict_report": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sender_strict_silence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.silent_den_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.silent_path_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.silent_posterior_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.suffixProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.sum_states_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.target_at_or_above_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.target_iff_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.target_requires_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.terminalHist": [
+      "propext"
+    ],
+    "Cooperation.terminal_bestReply_below": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.terminal_observed": [
+      "propext"
+    ],
+    "Cooperation.threshold_equality_counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.transcriptBayes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.transcriptBayes_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.transcript_bayes_limit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.treeMass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.tree_mass_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.tree_mass_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.tremble": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.tremble_mixed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.tremble_tendsto": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Cooperation.zero_report_requires_limit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Directed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.MaxValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.MinValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Simplex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.Support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.WeightBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.assignment_budget_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.attainment_costs_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.certified_raw_decisions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.collision_impossible": [],
+    "DecisionInterface.common_order_raw_target_iff_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.common_order_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_attainment_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_dual_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_primal_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.contextual_primal_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.coordinateMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.coordinate_minimum_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_kfold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_product_addition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_sum_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_value_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.directed_value_nonnegative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.dualObjective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.gameSuffix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.game_suffix_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.inducedWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.induced_weight_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.label_budget_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.logScore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_concave": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_domination": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_score_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.log_support_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.margin_nonpos_iff_blocker": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_finite_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.max_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.min_le_weighted": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.min_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.minimax_dual_min": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.pointMargin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.point_margin_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.primal_margin_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.primal_margin_has_dual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.productFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.rational_vertex_sandwich": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.raw_target_iff_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.robust_raw_target_iff_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sandwich_box_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sandwich_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.simplex_min_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.suffix_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.sum_profile_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.supportValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_domination": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_error_raw_decisions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.support_value_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.tree_local_profile_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.unbounded_reuse_amplifies": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.unlimited_reuse_forces_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.vertex_domination_lifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weight_box_compact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weightedPayoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_continuous_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_convex_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_payoff_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DecisionInterface.weighted_score_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "compiler_output": {
+    "Beliefs": "Beliefs.lean:41:14: warning: This simp argument is unused:\n  Fintype.sum_bool\n\nHint: Omit it from the simp argument list.\n  [apply] simp [bern]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nBeliefs.lean:44:41: warning: This simp argument is unused:\n  Fintype.sum_bool\n\nHint: Omit it from the simp argument list.\n  [apply] simp [localMass, atom, evidence, bern]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nBeliefs.lean:47:41: warning: This simp argument is unused:\n  Fintype.sum_bool\n\nHint: Omit it from the simp argument list.\n  [apply] simp [localMass, atom, evidence, bern]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nBeliefs.lean:51:41: warning: This simp argument is unused:\n  Fintype.sum_bool\n\nHint: Omit it from the simp argument list.\n  [apply] simp [localMass, atom, evidence, bern]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nBeliefs.lean:54:53: warning: This simp argument is unused:\n  Fintype.sum_bool\n\nHint: Omit it from the simp argument list.\n  [apply] simp [localMass, atom, evidence, bern]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nBeliefs.lean:100:0: warning: automatically included section variable(s) unused in theorem `Cooperation.joint_product`:\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\nBeliefs.lean:156:0: warning: automatically included section variable(s) unused in theorem `Cooperation.nature_nonneg`:\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\nBeliefs.lean:178:0: warning: automatically included section variable(s) unused in theorem `Cooperation.belief_tendsto`:\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n",
+    "Bridge": "",
+    "Continuation": "",
+    "Equilibrium": "Equilibrium.lean:128:33: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nEquilibrium.lean:277:68: warning: This simp argument is unused:\n  hc\n\nHint: Omit it from the simp argument list.\n  [apply] simp [blockerStrategy, show \u00acb.val < h.val.length from hbi]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n",
+    "GameInterface": "",
+    "Interface": "",
+    "Kernel": "",
+    "Receiver": "Receiver.lean:15:0: warning: automatically included section variable(s) unused in theorem `Cooperation.all_positive_mass`:\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n",
+    "Transcripts": "Transcripts.lean:115:39: warning: This simp argument is unused:\n  ho\n\nHint: Omit it from the simp argument list.\n  [apply] simp [privateObserved, j, evidence, H, observed]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n"
+  },
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "modules": [
+    "Beliefs",
+    "Transcripts",
+    "Receiver",
+    "Continuation",
+    "Bridge",
+    "Kernel",
+    "Equilibrium",
+    "Interface",
+    "GameInterface"
+  ],
+  "source_sha256": {
+    "Beliefs.lean": "695f4eea50eff30f8f5da78590fd631426131407092cfa36fbe754eac07fb0d0",
+    "Bridge.lean": "b0b1da93e6224ecf05be4568674b8b1aae418140d70237e5caac000e7ec33127",
+    "Continuation.lean": "dbe5ee89e34a8cd8d43b3ec015bc82e67344328e3619b987648c5e8c7b23314f",
+    "Equilibrium.lean": "c6947a0cb852af3cc3da8a558cc2898e7348dbc7bf4ef77502fc048ae2664499",
+    "GameInterface.lean": "166ab17c7095b172dd8f9b6b36c95dedcb8796a7ddfccfe8367261dcfb91c183",
+    "Interface.lean": "19b78bab356045198e05f9e7b3e53395ec01cd28ef85c08ede24ad012e6c5155",
+    "Kernel.lean": "ae63c495036367d87f5de4f04ea5abbb1344272fafb761814bb0f60b73f3f372",
+    "Receiver.lean": "f266af79d66e0c77cd45ee9972ef6969ef1d0ddee4a50473d108839978592715",
+    "Transcripts.lean": "0ac9e09011d3762c3d6e4248982664b0ca616565b84ae001d5f8dd6b286aa442"
+  },
+  "status": "Lean checked; formal scope only",
+  "toolchain": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "verifier_sha256": "0f5a17160e89cc39700487cba66396e4c83454e3027863c04cec7eb82ea22cb7"
+}

@@ -36,6 +36,8 @@ evidence. See the [research programme and citation contract](RESEARCH_PROGRAMME.
 - [Verification ledger](docs/working-ground/VERIFICATION.md) and [formalization backlog](docs/working-ground/FORMALIZATION_BACKLOG.md)
 - [R15 enforcement-sufficient interfaces](docs/working-ground/research/enforcement_codec_2026_09_20/README.md)
 - [R16 optimal bits and composition/reuse contract](docs/working-ground/research/optimal_bits_2026_09_21/README.md)
+- [First-paper theorem/evidence package](docs/working-ground/FIRST_PAPER_PACKAGE.md)
+- [R19B checked interface and game join](docs/working-ground/research/interface_bridge_2026_09_21/README.md)
 - [Import provenance and recovery](docs/working-ground/FOUNDATION_HANDOFF.md)
 
 R16 records matching planar storage rates and a bounded-versus-unlimited reuse
@@ -54,7 +56,11 @@ compressed components, bounded repeated independent occurrences, and exact finit
 label/tree masks. It preserves ZERO/FULL/REFINE/UNKNOWN, with rational witnesses,
 trusted exact backends and comparisons to R10/R12 and the primitive R13 game.
 This closes the declared reference-query integration gate. The strategic Lean
-bridge is complete; the interface Lean bridge has its separate scope and receipt.
+bridge and [interface bridge](docs/working-ground/research/interface_bridge_2026_09_21/README.md)
+are now checked, including their direct game interpretation. Fresh interface and
+joined audits cover 126 and 237 declarations respectively (overlapping scopes).
+The [first-paper package](docs/working-ground/FIRST_PAPER_PACKAGE.md) maps the full
+chain and its remaining implementation-adapter, entropy and review boundaries.
 
 The first nonbinary transfer [R20](docs/working-ground/research/nonbinary_enforcement_2026_09_21/README.md)
 proves that the same interface preserves a continuous committed report-sanction
