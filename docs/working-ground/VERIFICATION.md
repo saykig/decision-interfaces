@@ -253,3 +253,45 @@ review remain OPEN. Original phase receipts and chronology remain unchanged.
 **Current continuation ledgers:** R22 progress and D64–D67 are recorded in
 [the dated phase, §10](research/joint_inspection_2026_09_21/README.md#10-progress-decisions-and-next-bounded-work),
 with the next bounded acceptance contract in the review packet and ACTIVE_GOALS.
+
+
+## R22 reusable Lean bridge and boundary testing — September 21 formalization continuation
+
+**Lean checked at `594d34027f654c7f1b3c449b2f6aec9567a34003`:** the primitive
+audit/receiver game, actual simultaneous Bayesian tremble consistency (reusing
+R14), attained robust fine, clipped operational profile, real/rational query
+equivalence, Mathlib projective convex-hull identity, rational V-input minimum,
+and the joined sequential-target/interface theorem. The T4 directed inequality
+also compiles and is reused in a downstream strategic guarantee.
+
+[Precise model map and coverage](research/joint_inspection_2026_09_21/FORMAL_SCOPE.md)
+records the physical domain, existence/favorable ties and limitations. Eleven
+modules were rebuilt; 252 named declarations were axiom-audited: 105 new library
+declarations, 39 inherited and 108 generated finite fixture statements. Only
+propext, Classical.choice and Quot.sound occur.
+[Source/axiom summary](research/joint_inspection_2026_09_21/results/lean_summary_594d340.json).
+
+**Executable evidence:** 96 valid and 12 invalid actual Python adapter outputs
+were proved against the separate Lean rational specification. A new exact suite
+ran 332,763 elementary checks across 696 source families, with byte-identical
+normal/-O results.
+[Boundary receipt](research/joint_inspection_2026_09_21/results/boundaries_594d340.json).
+The original R22 33,205-check receipt and implementation bytes remain unchanged.
+Finite replay is not universal verification of the Python parser or algorithm.
+
+**Source-bound remote replay:** new formal/boundary run
+[35680227655](https://github.com/saykig/decision-interfaces/actions/runs/35680227655),
+existing seven-job research run
+[35680227644](https://github.com/saykig/decision-interfaces/actions/runs/35680227644),
+and original R22 replay
+[35680227673](https://github.com/saykig/decision-interfaces/actions/runs/35680227673)
+all passed at the proof-source edition above. Raw CI evidence and its exact
+source archive were retrieved; proof, adapter and boundary hashes match.
+
+**Still written/tested:** T4 general sharpness and the interval-envelope algorithm;
+T5 serial/repeat/finite-mask composition; full Python implementation correctness;
+other claims outside the selected T1/T3 bridge. No independent human model review,
+new originality, external independent kernel, empirical validity or v1 freeze is
+claimed. The documentation update records this later scope without rewriting the
+historical matrix or previous receipts. D68–D70 and the next bounded work are
+recorded in the linked formal-scope document.

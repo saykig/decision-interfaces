@@ -1,0 +1,81 @@
+{
+  "checks": {
+    "AND_vs_OR_boundary": 1,
+    "binding_model_exact_tie": 6316,
+    "convex_interior_at_threshold": 10440,
+    "directed_error_sharpness": 9,
+    "equal_marginals": 1,
+    "exact_below_threshold_failure": 6316,
+    "exact_envelope_breakpoints": 3006,
+    "finite_interval_extrapolation_boundary": 1,
+    "fresh_repeat_charged_each_time": 5,
+    "independent_AND_vs_shared_coin": 1,
+    "infeasible_not_zero": 1,
+    "invalid_even_when_mask_empty": 3,
+    "joint_dependence_counterexample": 1,
+    "mask_dependence": 1,
+    "mixed_no_rescue": 219240,
+    "negative_envelope_rejected": 1,
+    "negative_fine_rejection": 1,
+    "negative_profile_rejected": 1,
+    "no_finite_fine_without_floor": 4,
+    "primitive_target_attainment": 10440,
+    "profile_query_identity": 10440,
+    "projective_forward": 696,
+    "projective_inverse": 696,
+    "query_domain_rejection": 6,
+    "receiver_report_strict": 7,
+    "receiver_silent_strict": 7,
+    "reward_shift_boundary": 1,
+    "reward_shift_same_base_profile": 1,
+    "safe_api_fidelity": 10440,
+    "safe_below_threshold_fidelity": 6316,
+    "semantic_mutant_killed": 8,
+    "serial_domain_rejection": 6,
+    "source_domain_rejection": 9,
+    "tie_all_mixtures_allowed": 44212,
+    "unknown_label_rejection": 1,
+    "vanishing_detection_sensitivity": 4,
+    "zero_fine_feasible": 4124
+  },
+  "formal_boundary": "Python parser/envelope code not verified by Lean; compare to formal specification separately",
+  "queries_per_family": 15,
+  "semantic_mutants_killed": [
+    "apply_ratio_vertex_rule_to_other_objectives",
+    "collapse_empty_to_zero",
+    "discard_joint_pairing",
+    "infer_global_profile_from_finite_interval",
+    "remove_zero_clipping",
+    "replace_AND_by_OR",
+    "reuse_same_coin_as_independent",
+    "transform_convex_weights_without_reweighting"
+  ],
+  "source_families": 696,
+  "source_sha256": {
+    "boundary_checks.py": "20b7b28433bfdd446df5ae0e107c57c0ea6e987c1f3a8ec49a03da771d7aa9a9",
+    "joint.py": "04e6ce3173e6d664ec8e85847e1f6125a1db54af7b700895e36364381ccda5f1"
+  },
+  "status": "PASS: exact finite adversarial and adapter replay; not universal formal proof",
+  "total_checks": 332763,
+  "witnesses": {
+    "audit_semantics": {
+      "independent_AND": "2",
+      "independent_OR": "2/3",
+      "same_coin": "1"
+    },
+    "equal_marginals_different_fines": [
+      "3",
+      "6"
+    ],
+    "mask_boundary": {
+      "empty": null,
+      "feasible_zero": "0",
+      "forbidden_pair_admitted": "12",
+      "valid": "4"
+    },
+    "unsupported_reward_shift": [
+      "10",
+      "26"
+    ]
+  }
+}

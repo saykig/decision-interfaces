@@ -1,0 +1,60 @@
+{
+  "adapter_scope": "96 valid and 12 invalid Python outputs, kernel checked against the rational specification; finite replay only",
+  "adapter_source_sha256": {
+    "generate_adapter.py": "7accd896e75109e825fa4440f08fe35e06e2f6f7cf6b09ca5411e2a584586e89",
+    "joint.py": "04e6ce3173e6d664ec8e85847e1f6125a1db54af7b700895e36364381ccda5f1"
+  },
+  "audit_sha256": "ba29135762e506e3721da26cdebc8cc99370831187ee0ab0ef85f06e9c7df193",
+  "audited_named_declarations": 252,
+  "axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "baseline_research_conclusion": "success",
+  "baseline_research_run": 35680227644,
+  "boundary_checks": 332763,
+  "boundary_receipt_sha256": "f503428792de4c8c26d4edb5d845d2ea8bf9cffb31693101f8d6e8f9ac33788b",
+  "formal_workflow_conclusion": "success",
+  "formal_workflow_job": 106595413107,
+  "formal_workflow_run": 35680227655,
+  "full_raw_receipt_location": "GitHub CI artifact and downloaded R22 evidence bundle; this JSON is a derived summary, not the raw receipt",
+  "full_raw_receipt_sha256": "bbdc5390b27f4f6948750b76ead24103f6a6cbc4eb576595bf53ea44ca9e62e3",
+  "generated_fixture_declarations": 108,
+  "historical_r22_conclusion": "success",
+  "historical_r22_run": 35680227673,
+  "inherited_declarations": 39,
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "modules": [
+    "Beliefs",
+    "AuditGame",
+    "RobustFine",
+    "Profile",
+    "Projective",
+    "Consistency",
+    "RationalInput",
+    "Operational",
+    "Inspection",
+    "Boundaries",
+    "AdapterFixtures"
+  ],
+  "new_library_declarations": 105,
+  "scope_document": "../FORMAL_SCOPE.md",
+  "source_commit": "594d34027f654c7f1b3c449b2f6aec9567a34003",
+  "source_sha256": {
+    "AdapterFixtures.lean": "d36a2c3722ab3ae09d814d52950fe53807befd63f12a417695b8fba30afb46af",
+    "AuditGame.lean": "69b0dac470a823884f0a285e31a34a2fd447cff0f3fc721b55882a0bcf8dc8b0",
+    "Beliefs.lean": "695f4eea50eff30f8f5da78590fd631426131407092cfa36fbe754eac07fb0d0",
+    "Boundaries.lean": "8a01375d15456711a04669af98de064937f89c849f9298e0dd1da0957d8a58e8",
+    "Consistency.lean": "a18294c7b1e6592db5c7c44b2eb794f4d1a83a2c5bcef59adf63dc51863caa31",
+    "Inspection.lean": "57a6c7e0933d5d511f3cae6d7a171eb65df40f36cf4d0d7d21e79c62672aab40",
+    "Operational.lean": "9db07fa306251937b4f2ae8bc7681e75078603bc9cd4ae518014a7655311be64",
+    "Profile.lean": "dab73fddf56a46b17a4579dd66153080d16025e214914c9a48d0a5608ed2f04f",
+    "Projective.lean": "fcf73940ecd0e535e8aca481b7911859a7be18111d5445824ca8ffb611700e87",
+    "RationalInput.lean": "829e32e6390bfc3c37a042fcccba4d38a14182c256d3c8b69f75b291a95158bd",
+    "RobustFine.lean": "74e6a1e02db30cc6572d7f2ddba49a09cbc9ab5e212f55e78453f17fc5c11315"
+  },
+  "status": "Lean checked; declared formal scope only",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "verifier_sha256": "c2a77ef278845840a01568e7e71ce4bda61fc40e5ae830499132d781ebee08d1"
+}
