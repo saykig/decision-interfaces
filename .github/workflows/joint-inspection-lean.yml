@@ -1,0 +1,82 @@
+name: R22 formal inspection bridge
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/lean/**'
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py'
+      - '.github/workflows/joint-inspection-lean.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/lean/**'
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py'
+      - '.github/workflows/joint-inspection-lean.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  lean-r22:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore fixed Lean and mathlib
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.elan
+            docs/working-ground/research/information_incentives_2026_08_14/lean/.lake
+          key: r22-lean-4.33.1-mathlib-0df444a-v1
+      - name: Prepare fixed dependencies
+        id: deps
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -x "$HOME/.elan/bin/lean" ]; then
+            curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y
+          fi
+          export PATH="$HOME/.elan/bin:$PATH"
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          elan toolchain install leanprover/lean4:v4.33.1
+          cd docs/working-ground/research/information_incentives_2026_08_14/lean
+          lake update
+          lake exe cache get
+      - name: Save fixed dependencies
+        if: steps.deps.outcome == 'success' && steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ~/.elan
+            docs/working-ground/research/information_incentives_2026_08_14/lean/.lake
+          key: r22-lean-4.33.1-mathlib-0df444a-v1
+      - name: Compile R22 and audit all named declarations
+        shell: bash
+        run: |
+          set -euo pipefail
+          python docs/working-ground/research/joint_inspection_2026_09_21/lean/verify.py \
+            --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
+            --lean lean --output /tmp/r22-lean.json 2>&1 | tee /tmp/r22-lean.log
+      - name: Boundary replay when present
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHECK=docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py
+          if [ -f "$CHECK" ]; then
+            python "$CHECK" > /tmp/r22-boundaries.json
+            python -O "$CHECK" > /tmp/r22-boundaries-O.json
+            cmp /tmp/r22-boundaries.json /tmp/r22-boundaries-O.json
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: r22-formal-evidence-${{ github.sha }}
+          path: |
+            /tmp/r22-lean.json
+            /tmp/r22-lean.log
+            /tmp/r22-boundaries.json
+          if-no-files-found: warn
