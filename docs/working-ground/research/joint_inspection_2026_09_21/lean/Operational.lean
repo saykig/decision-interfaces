@@ -37,7 +37,9 @@ theorem profile_lipschitz (S : Source) {q0 : ℝ} (hq0 : 0 < q0)
   refine lipschitzWith_iff_dist_le_mul.2 ?_
   intro t u
   change |profile S t-profile S u| ≤ (1/q0) * |t-u|
-  simpa only [div_eq_mul_inv,one_mul,mul_comm] using profile_distance_bound S hq0 hf t u
+  calc
+    |profile S t-profile S u| ≤ |t-u|/q0 := profile_distance_bound S hq0 hf t u
+    _ = (1/q0) * |t-u| := by ring
 
 theorem profile_continuous (S : Source) : Continuous (profile S) := by
   obtain ⟨q0,hq0,hf⟩ := detection_floor_exists S.nonempty S.compact S.positive
