@@ -1,5 +1,11 @@
 # Working ground
 
+**Latest continuation:** [integrated manuscript v0.1](manuscript/DECISION_INTERFACES.md),
+[statement review packet](manuscript/REVIEW_PACKET.md), and
+[R22 joint inspection, progress and D64–D67](research/joint_inspection_2026_09_21/README.md).
+Independent human review remains open. See ACTIVE_GOALS and VERIFICATION for the
+new bounded goal and the separate written-proof, exact-check and CI scopes.
+
 **Current ownership — September 21, 2026:** this is the canonical mathematical
 working ground in [decision-interfaces](https://github.com/saykig/decision-interfaces).
 Future theorem development, proofs, verification and mathematical provenance live
@@ -154,3 +160,20 @@ belief assessments, sequential rationality at every history, arbitrary mixed
 no-rescue, the blocker construction, and the attained 0-or-B minimum. Seven freshly
 rebuilt modules and 163 audited declarations (44 new) use only standard axioms.
 This closes the current full-existence gap without rewriting R14's history.
+
+
+## R22 — joint inspection and integrated first-paper draft
+
+[R22](research/joint_inspection_2026_09_21/README.md) proves that identical reward
+and detection marginals can require fines 3 versus 6. It derives the clipped joint
+profile, exact rational envelope, sharp error bound and scoped composition laws,
+then identifies an unsupported reward-attachment boundary. Its progress and
+D64–D67 are maintained in that dated phase. The 33,205 exact checks pass locally
+and in the new remote CI job; all seven existing jobs also passed at the research
+commit `221354c025861e58e7ba7667321aa305860d7bab`. No new R22 Lean is claimed.
+
+The [integrated manuscript](manuscript/DECISION_INTERFACES.md) and
+[review packet](manuscript/REVIEW_PACKET.md) complete the first prose assembly as
+v0.1. Independent human statement/model-fidelity and priority review remain open.
+[ACTIVE_GOALS](ACTIVE_GOALS.md) names the next bounded formal bridge and keeps
+prospective two-sender transfer separate from work already executed.

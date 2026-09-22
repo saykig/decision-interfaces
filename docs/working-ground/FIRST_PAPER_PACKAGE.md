@@ -1,5 +1,10 @@
 # First mathematical paper: checkable package and closure gaps
 
+**Latest continuation:** the [integrated v0.1 manuscript](manuscript/DECISION_INTERFACES.md)
+and [statement review packet](manuscript/REVIEW_PACKET.md) now exist. Independent
+statement/model-fidelity and priority review remain OPEN. The original assembly
+record below is preserved; the continuation at the end records the new status.
+
 September 21, 2026. Scope: reusable enforcement interfaces in the declared
 sequential hard-evidence benchmark. This is a theorem/evidence assembly map,
 not a publication-priority certificate or a finished prose manuscript. The paper
@@ -101,3 +106,23 @@ Next bounded paper task: write a single integrated manuscript from this dependen
 map, with the primitive model and interface contract stated before compression
 rates, and a theorem-by-theorem source comparison. That editorial task is separate
 from executing the current research gates.
+
+
+## September 21 continuation — integrated draft and joint inspection
+
+The editorial task immediately above is now executed as
+[DECISION_INTERFACES.md](manuscript/DECISION_INTERFACES.md), an integrated v0.1
+exposition with seven numbered statements and incorporated detailed proof appendices.
+The [review packet](manuscript/REVIEW_PACKET.md) records the author-side statement
+audit, exact dependency map and independent-review acceptance questions. Independent
+human statement/model-fidelity and priority review remain OPEN; the draft is not
+publication-ready merely because it exists or because the code passes CI.
+
+The separately requested mathematical continuation [R22](research/joint_inspection_2026_09_21/README.md)
+proves why reward/detection dependence must survive summarization and supplies a
+scoped joint profile, sharp error bound and serial/finite-mask composition. Its
+33,205 exact finite checks pass locally and in remote run 35671492618 at
+`221354c025861e58e7ba7667321aa305860d7bab`. All seven old research jobs also passed
+in run 35671492629 at that commit. R22 is not a new Lean result or a premise of
+the original paper's receiver-fine theorems. The exact next bounded assurance
+contract is in ACTIVE_GOALS and the review packet.

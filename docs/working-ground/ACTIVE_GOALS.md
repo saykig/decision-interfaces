@@ -141,3 +141,39 @@ classes. Gates A/B/C and one inspection transfer have now been executed. The
 [first-paper package](FIRST_PAPER_PACKAGE.md) records the earned contract and
 remaining closure gaps. Integrated exposition and independent review are next;
 do not precommit to a distant sequence of extensions.
+
+
+## Latest continuation — R22 and integrated manuscript
+
+The user's continuation request led to an executed
+[joint reward/detection test, R22](research/joint_inspection_2026_09_21/README.md).
+Equal complete marginal ranges can give fine minima 3 versus 6. A clipped joint
+profile is sufficient and necessary for the declared one-sender positive-cost
+queries and has an exact rational polytope realization, a sharp error bound,
+independent serial/finite-mask composition and an explicit reward-attachment
+boundary. Written proofs and 33,205 exact finite checks; no new Lean or priority
+claim. [Progress and D64–D67](research/joint_inspection_2026_09_21/README.md#10-progress-decisions-and-next-bounded-work)
+are maintained in the dated phase alongside their evidence and rejected extensions.
+
+**Paper integration is now executed:** [integrated v0.1 manuscript](manuscript/DECISION_INTERFACES.md)
+and [statement review packet](manuscript/REVIEW_PACKET.md). The draft contains the
+primitive model, seven numbered statements, proof dependency map, theorem-level
+source comparisons and trust boundaries. Author-side document review is recorded.
+Independent human statement/model-fidelity and priority review remain OPEN; this
+continuation does not claim to have closed that prerequisite or made the paper
+publication-ready. Gates A–C are not reopened or silently enlarged by R22.
+
+**Next bounded executable assurance goal:** formalize R22 T1/T3 from actual audit
+payoffs and mixed best replies to the attained robust fine, clipped joint profile
+and rational V-input interpretation. Test the adapter against those formal objects.
+Acceptance requires compiled statements without admitted/custom axioms, faithful
+primitive/formal mapping, exact ties and negative-domain rejection controls, and
+a source-pinned replay. R22's written T4/T5 error/composition laws are subsequent
+stable bridges, not already compiled declarations.
+
+**Next prospective mathematical transfer:** a two-sender shared-parameter inspection
+model, deriving its continuation/blocker condition before assuming the one-sender
+curve composes. This is a future bounded choice, not executed work or a precommitted
+programme of dynamics, bargaining and vector sanctions. The first paper's independent
+review remains a separate closure task. See VERIFICATION for source-specific CI:
+all seven existing jobs plus the new R22 job passed at `221354c025861e58e7ba7667321aa305860d7bab`.

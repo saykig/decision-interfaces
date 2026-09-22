@@ -211,3 +211,45 @@ fidelity review is claimed. Codec parsing, executable-to-formal adapters, entrop
 rates and exact-interface coarseness remain outside the new formal proof scope.
 The workflow now rebuilds both interface and joined scopes on every relevant push;
 the joined scope also covers all previously audited R19A declarations.
+
+
+## R22 joint inspection and manuscript integration — September 21 continuation
+
+**Written proofs:** [R22 T1–T6](research/joint_inspection_2026_09_21/README.md)
+derive the actual one-sender audit-game frontier, equal-marginal dependence
+counterexample, coarsest clipped joint profile, rational projective vertex
+representation, sharp directed approximation bound, independent serial/finite-mask
+composition and an unsupported background-reward attachment counterexample.
+These change the declared model, not the scope of the earlier disclosure theorem.
+
+**Exact local computation:** standard-library Fraction arithmetic; 156 source
+families, nine queries per family and 33,205 individual checks. The primitive
+lottery/receiver evaluator is separate from the query formula but was written in
+this same session. Normal and optimized Python receipts are byte-identical.
+[Receipt and source hashes](research/joint_inspection_2026_09_21/experiments/receipt.json).
+These are finite tests supplementing the written proofs, not a continuum proof
+by sampling or an independent human review. Local execution used a partial
+workspace; the old suites were replayed remotely rather than claimed run locally.
+
+**Remote replay at `221354c025861e58e7ba7667321aa305860d7bab`:**
+[R22 run 35671492618](https://github.com/saykig/decision-interfaces/actions/runs/35671492618)
+passed its exact job, and
+[research run 35671492629](https://github.com/saykig/decision-interfaces/actions/runs/35671492629)
+passed all seven existing jobs including the strategic/interface Lean rebuild.
+That is eight successful jobs across two workflows at this source edition.
+
+**Formal status:** no new R22 Lean declaration, proof-kernel replay or independent
+human review. The previous Lean scopes were rerun without extending their theorem
+scope to joint inspection. Stable T1/T3/T4/T5 bridges are marked for future Lean
+work in the phase record. No new historical-originality label is earned.
+
+**Manuscript status:** [integrated v0.1](manuscript/DECISION_INTERFACES.md) and
+[statement review packet](manuscript/REVIEW_PACKET.md) are executed expository work.
+The document-level adversarial audit is author-side, not independent. The detailed
+codec proof remains an incorporated dependency; it is not newly formalized by
+being summarized. Independent statement/model-fidelity review and focused priority
+review remain OPEN. Original phase receipts and chronology remain unchanged.
+
+**Current continuation ledgers:** R22 progress and D64–D67 are recorded in
+[the dated phase, §10](research/joint_inspection_2026_09_21/README.md#10-progress-decisions-and-next-bounded-work),
+with the next bounded acceptance contract in the review packet and ACTIVE_GOALS.
