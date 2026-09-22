@@ -34,7 +34,7 @@ theorem profile_distance_bound (S : Source) {q0 : ℝ} (hq0 : 0 < q0)
 theorem profile_lipschitz (S : Source) {q0 : ℝ} (hq0 : 0 < q0)
     (hf : ∀ p ∈ S.carrier, q0 ≤ p.2) :
     LipschitzWith ⟨1/q0,(one_div_pos.mpr hq0).le⟩ (profile S) := by
-  rw [lipschitzWith_iff_dist_le_mul]
+  refine lipschitzWith_iff_dist_le_mul.2 ?_
   intro t u
   simpa [Real.dist_eq,div_eq_mul_inv,mul_comm] using profile_distance_bound S hq0 hf t u
 
@@ -69,14 +69,14 @@ theorem profile_eq_of_positive_rationals (S T : Source)
   have hdist : |t-(r:ℝ)| < ε := by rw [abs_lt]; constructor <;> linarith
   have hS := profile_distance_bound S hc hSc t (r:ℝ)
   have hT := profile_distance_bound T hd hTd (r:ℝ) t
-  have hsum : D ≤ |t-(r:ℝ)|*C := by
+  have hsum : D ≤ |t-(r:ℝ)| * C := by
     dsimp [D,C]
     calc
       |profile S t-profile T t| ≤
           |profile S t-profile S (r:ℝ)|+|profile S (r:ℝ)-profile T t| := abs_sub_le _ _ _
       _ = |profile S t-profile S (r:ℝ)|+|profile T (r:ℝ)-profile T t| := by rw [heq]
       _ ≤ |t-(r:ℝ)|/c+|(r:ℝ)-t|/d := add_le_add hS hT
-      _ = |t-(r:ℝ)|*(1/c+1/d) := by rw [abs_sub_comm (r:ℝ) t]; ring
+      _ = |t-(r:ℝ)| * (1/c+1/d) := by rw [abs_sub_comm (r:ℝ) t]; ring
   have hsmall := mul_lt_mul_of_pos_right hdist hC
   linarith
 
@@ -92,7 +92,7 @@ theorem rational_query_equivalence (S T : Source) :
     apply profile_eq_of_positive_rationals S T
     intro r hr
     have hh := h 1 r (by norm_num) hr
-    simpa only [Rat.cast_one] using hh
+    simpa only [Rat.cast_one,fine,profile] using hh
 
 /-- T4's one-sided error transport requires matched JOINT points. It does not
 follow merely from separately close reward and detection projections. -/

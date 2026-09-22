@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+      - name: Archive the exact repository source
+        run: git archive --format=zip -o /tmp/r22-source.zip HEAD
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -80,6 +82,7 @@ jobs:
           path: |
             /tmp/r22-lean.json
             /tmp/r22-lean.log
+            /tmp/r22-source.zip
             /tmp/r22-adapter.lean
             /tmp/r22-boundaries.json
           if-no-files-found: warn
