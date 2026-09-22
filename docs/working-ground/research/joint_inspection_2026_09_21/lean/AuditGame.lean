@@ -89,7 +89,11 @@ theorem receiver_one_iff {b d : ℝ} (hb : 0 < 3*b-2) :
   · intro h
     have hc := h.2 1 ⟨by norm_num,le_rfl⟩
     have hx : 3*b-2 ≤ d*(3*b-2) := by simpa [receiverPayoff] using hc
-    have hd : 1 ≤ d := (mul_le_mul_right hb).1 (by simpa only [one_mul] using hx)
+    have hd : 1 ≤ d := by
+      by_contra hn
+      have ht := mul_lt_mul_of_pos_right (lt_of_not_ge hn) hb
+      have hh : d*(3*b-2) < 3*b-2 := by simpa only [one_mul] using ht
+      exact (not_lt_of_ge hx) hh
     exact le_antisymm h.1.2 hd
   · rintro rfl
     refine ⟨⟨by norm_num,le_rfl⟩,?_⟩

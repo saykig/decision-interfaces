@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 REVISION = "0df444a360eaa60ab8c11dca51a86af692955474"
 TOOLCHAIN = "leanprover/lean4:v4.33.1"
 ALLOWED = {"propext", "Classical.choice", "Quot.sound"}
-MODULES = ["AuditGame", "RobustFine", "Profile"]
+MODULES = ["AuditGame", "RobustFine", "Profile", "Projective"]
 
 
 def run(args, env=None):
