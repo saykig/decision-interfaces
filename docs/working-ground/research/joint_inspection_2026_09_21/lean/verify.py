@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 REVISION = "0df444a360eaa60ab8c11dca51a86af692955474"
 TOOLCHAIN = "leanprover/lean4:v4.33.1"
 ALLOWED = {"propext", "Classical.choice", "Quot.sound"}
-MODULES = ["AuditGame", "RobustFine", "Profile", "Projective"]
+MODULES = ["Beliefs", "AuditGame", "RobustFine", "Profile", "Projective", "Consistency", "RationalInput"]
 
 
 def run(args, env=None):
@@ -44,7 +44,9 @@ def main():
         build = Path(temp)
         env = dict(os.environ, LEAN_PATH=os.pathsep.join([str(build)] + paths))
         for module in MODULES:
-            source = ROOT / (module + ".lean")
+            source_root = (ROOT.parent.parent / "lean_belief_bridge_2026_09_19" / "lean") if module == "Beliefs" else ROOT
+            source = source_root / (module + ".lean")
+            namespace = "Cooperation." if module == "Beliefs" else "JointInspection."
             content = source.read_text()
             stripped = re.sub(r"/-.*?-/", "", content, flags=re.S)
             stripped = re.sub(r"--[^\n]*", "", stripped)
@@ -54,10 +56,10 @@ def main():
                                content, re.M)
             if not names:
                 raise SystemExit("No declarations in " + module)
-            declarations.extend("JointInspection." + name for name in names)
+            declarations.extend(namespace + name for name in names)
             sources[source.name] = hashlib.sha256(source.read_bytes()).hexdigest()
-            logs[module] = run(lean + ["--root=" + str(ROOT), "-o", str(build / (module + ".olean")),
-                                       str(source)], env).replace(str(ROOT) + os.sep, "")
+            logs[module] = run(lean + ["--root=" + str(source_root), "-o", str(build / (module + ".olean")),
+                                       str(source)], env).replace(str(source_root) + os.sep, "")
             print("Compiled " + module, flush=True)
         if len(declarations) != len(set(declarations)):
             raise SystemExit("Duplicate declaration names")
