@@ -1,0 +1,30 @@
+name: R22 joint inspection
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/**'
+      - '.github/workflows/joint-inspection.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/**'
+      - '.github/workflows/joint-inspection.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-joint-inspection:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Exact primitive, interface and boundary replays
+        working-directory: docs/working-ground/research/joint_inspection_2026_09_21/experiments
+        run: |
+          python check.py > /tmp/r22-normal.json
+          python -O check.py > /tmp/r22-optimized.json
+          cmp receipt.json /tmp/r22-normal.json
+          cmp /tmp/r22-normal.json /tmp/r22-optimized.json

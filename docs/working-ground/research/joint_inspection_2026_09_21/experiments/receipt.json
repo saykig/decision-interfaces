@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "affine_feasibility_at_threshold": 1404,
+    "detection_floor_necessity": 4,
+    "discrepancy_interior_replay": 33,
+    "dominated_line_removal": 1,
+    "envelope_coverage": 312,
+    "exact_discrepancy": 2,
+    "exact_envelope_replay": 825,
+    "independent_serial_composition": 27,
+    "infeasible_not_zero": 2,
+    "interior_model_replay": 1260,
+    "invalid_contract_rejection": 14,
+    "marginal_collision": 2,
+    "mixed_best_reply_replay": 14118,
+    "nontrivial_breakpoint": 1,
+    "operational_not_full_hull_equality": 1,
+    "primitive_lottery_identity": 7059,
+    "primitive_target_threshold": 3475,
+    "projective_identity": 1260,
+    "projective_weights": 1260,
+    "query_profile_identity": 1404,
+    "rectangular_outer_bound": 9,
+    "repeated_stage_accounting": 27,
+    "shared_mask_counterexample": 1,
+    "sharp_error_bound": 32,
+    "strict_lower_fine_failure": 667,
+    "unsupported_reward_attachment_collision": 2,
+    "zero_clipping": 3
+  },
+  "evidence": "exact rational finite checks; not Lean or independent human review",
+  "phase": "R22",
+  "queries_per_family": 9,
+  "sha256": {
+    "check.py": "c7016dbf0a1c88b5aac10abf62c372e3ad9e4a50da2c17eb588e5546c6ce02ff",
+    "joint.py": "04e6ce3173e6d664ec8e85847e1f6125a1db54af7b700895e36364381ccda5f1"
+  },
+  "source_families": 156,
+  "total_checks": 33205
+}
