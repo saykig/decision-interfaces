@@ -6,13 +6,14 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parent
 REVISION = "0df444a360eaa60ab8c11dca51a86af692955474"
 TOOLCHAIN = "leanprover/lean4:v4.33.1"
 ALLOWED = {"propext", "Classical.choice", "Quot.sound"}
-MODULES = ["Beliefs", "AuditGame", "RobustFine", "Profile", "Projective", "Consistency", "RationalInput"]
+MODULES = ["Beliefs", "AuditGame", "RobustFine", "Profile", "Projective", "Consistency", "RationalInput", "Operational", "Boundaries", "AdapterFixtures"]
 
 
 def run(args, env=None):
@@ -40,11 +41,18 @@ def main():
     lean = [args.lean, "+" + TOOLCHAIN]
     version = run(lean + ["--version"]).strip()
     sources, logs, declarations = {}, {}, []
+    adapter_script = ROOT.parent / "experiments" / "generate_adapter.py"
+    generated = run([sys.executable, str(adapter_script)])
+    adapter_sources = {name: hashlib.sha256((adapter_script.parent / name).read_bytes()).hexdigest()
+                       for name in ("joint.py", "generate_adapter.py")}
     with tempfile.TemporaryDirectory(prefix="di-r22-proof-") as temp:
         build = Path(temp)
+        (build / "AdapterFixtures.lean").write_text(generated)
         env = dict(os.environ, LEAN_PATH=os.pathsep.join([str(build)] + paths))
         for module in MODULES:
             source_root = (ROOT.parent.parent / "lean_belief_bridge_2026_09_19" / "lean") if module == "Beliefs" else ROOT
+            if module == "AdapterFixtures":
+                source_root = build
             source = source_root / (module + ".lean")
             namespace = "Cooperation." if module == "Beliefs" else "JointInspection."
             content = source.read_text()
@@ -52,7 +60,7 @@ def main():
             stripped = re.sub(r"--[^\n]*", "", stripped)
             if re.search(r"\b(sorry|admit|axiom|native_decide|unsafe)\b", stripped):
                 raise SystemExit("Unapproved proof token in " + source.name)
-            names = re.findall(r"^(?:noncomputable\s+)?(?:def|abbrev|lemma|theorem|structure)\s+([\w.]+)",
+            names = re.findall(r"^(?:noncomputable\s+)?(?:def|abbrev|lemma|theorem|structure|inductive)\s+([\w.]+)",
                                content, re.M)
             if not names:
                 raise SystemExit("No declarations in " + module)
@@ -83,12 +91,15 @@ def main():
                    mathlib_revision=revision, source_sha256=sources,
                    verifier_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                    source_commit=os.environ.get("GITHUB_SHA"),
+                   adapter_source_sha256=adapter_sources,
+                   adapter_scope="96 valid and 12 invalid Python outputs rechecked against the Lean rational specification; finite replay only",
                    modules=MODULES, audited_declarations=audited,
                    audit_sha256=hashlib.sha256(audit.encode()).hexdigest(), compiler_output=logs)
     rendered = json.dumps(receipt, indent=2, sort_keys=True) + "\n"
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered)
+        (args.output.parent / "r22-adapter.lean").write_text(generated)
     else:
         print(rendered, end="")
 

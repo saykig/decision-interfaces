@@ -19,7 +19,10 @@ theorem singleBayes_posterior {s : ℝ} (hs : 0 < s ∧ s < 1)
   have hd := ne_of_gt (Cooperation.localMass_pos hp hs o)
   unfold singleBayes
   rw [Cooperation.atom_factor hp ⟨hs.1.le,hs.2.le⟩]
-  simp [Cooperation.bern,hd]
+  change (Cooperation.localMass (1/2) s o * Cooperation.posterior (1/2) s o) /
+    Cooperation.localMass (1/2) s o = Cooperation.posterior (1/2) s o
+  apply (div_eq_iff hd).2
+  ring
 
 theorem silent_posterior_translation {s : ℝ} (hs : Unit s) :
     Cooperation.posterior (1/2) s .silent = silentPosterior s := by
@@ -126,7 +129,7 @@ theorem audit_fine_sequential (S : AuditSource) (Q : InspectionQuery) (e : ℝ) 
     (0 ≤ e ∧ ∀ p ∈ S.carrier,
       SequentialSilentTarget Q.multiplier p.1 Q.cost e p.2) ↔
     fine S.toSource Q.multiplier Q.cost ≤ e := by
-  simpa only [sequential_silent_iff] using
+  simpa only [sequential_silent_iff,RobustTarget] using
     robust_iff_fine_le S.toSource Q.multiplier Q.cost e
 
 end

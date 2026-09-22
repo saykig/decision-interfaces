@@ -4,13 +4,15 @@ on:
     branches: [main]
     paths:
       - 'docs/working-ground/research/joint_inspection_2026_09_21/lean/**'
-      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py'
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/**'
+      - 'docs/working-ground/research/lean_belief_bridge_2026_09_19/lean/Beliefs.lean'
       - '.github/workflows/joint-inspection-lean.yml'
   pull_request:
     branches: [main]
     paths:
       - 'docs/working-ground/research/joint_inspection_2026_09_21/lean/**'
-      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py'
+      - 'docs/working-ground/research/joint_inspection_2026_09_21/experiments/**'
+      - 'docs/working-ground/research/lean_belief_bridge_2026_09_19/lean/Beliefs.lean'
       - '.github/workflows/joint-inspection-lean.yml'
   workflow_dispatch:
 permissions:
@@ -78,5 +80,6 @@ jobs:
           path: |
             /tmp/r22-lean.json
             /tmp/r22-lean.log
+            /tmp/r22-adapter.lean
             /tmp/r22-boundaries.json
           if-no-files-found: warn

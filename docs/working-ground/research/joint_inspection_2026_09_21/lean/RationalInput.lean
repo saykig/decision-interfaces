@@ -66,7 +66,7 @@ theorem checked_input_sequential (ps : List RationalPoint) (a k e : ℚ)
     (h : checkedFine ps a k = .ok e) :
     0 ≤ (e:ℝ) ∧ ∀ p ∈ convexHull ℝ {p | p ∈ ps.map realPoint},
       SequentialSilentTarget (a:ℝ) p.1 (k:ℝ) (e:ℝ) p.2 := by
-  simpa only [sequential_silent_iff] using (checked_input_minimum ps a k e h).1
+  simpa only [sequential_silent_iff,RobustTarget] using (checked_input_minimum ps a k e h).1
 
 end
 end JointInspection
