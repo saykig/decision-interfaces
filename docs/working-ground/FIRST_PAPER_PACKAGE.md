@@ -62,6 +62,18 @@ suites and new phase suites. A green run establishes only its named tests/formal
 statements. Local receipts and remote CI are different evidence and should be
 cited with the exact source commit.
 
+## Frozen source and remote replay
+
+Research source commit: [`962ff4fef3d5405f00f9ec2e3abfbd773f108c9b`](https://github.com/saykig/decision-interfaces/commit/962ff4fef3d5405f00f9ec2e3abfbd773f108c9b).
+[Research verification run 35669873531](https://github.com/saykig/decision-interfaces/actions/runs/35669873531)
+completed successfully with all seven jobs: exact/replayable Python, numerical
+regression, R12 exact backends, R13 primitive game, R18 composed queries,
+R20/R21 transfers, and Lean strategic/interface proofs. The Lean job freshly
+rebuilt the six interface modules and the nine joined game/interface modules.
+This is a remote CI replay with pinned dependencies, not an independent human
+review or a separate proof-kernel implementation. Later documentation-only commits
+do not extend the tested source scope.
+
 ## What belongs after this paper
 
 [R20](research/nonbinary_enforcement_2026_09_21/README.md) is a completed written

@@ -690,3 +690,14 @@ to evidence and remaining gaps. Gates A/B/C and one subsequent inspection test
 have been executed. Next bounded paper task: integrate the manuscript and conduct
 independent statement/source review; next implementation assurance: certify the
 adapter. Further mathematical transfer remains a separate follow-on.
+
+
+### Final gate replay
+
+All seven research-verification CI jobs passed for source commit
+`962ff4fef3d5405f00f9ec2e3abfbd773f108c9b`, run
+[35669873531](https://github.com/saykig/decision-interfaces/actions/runs/35669873531).
+This includes the new six-module interface audit and nine-module joined audit.
+The [paper package](FIRST_PAPER_PACKAGE.md) records the frozen source and exact
+remote evidence scope. Current gates are complete; manuscript integration and
+independent review remain the next bounded paper work.
