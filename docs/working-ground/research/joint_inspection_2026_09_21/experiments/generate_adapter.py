@@ -39,7 +39,7 @@ def generate():
                 expected=joint.frontier(ps,a,k)
                 lines += [f'theorem adapter_valid_{n:03d} :',
                     f'    checkedFine {source_literal(ps)} {literal(a)} {literal(k)} = .ok {literal(expected)} := by',
-                    '  norm_num [checkedFine,ValidInput,rationalFine]','']
+                    '  norm_num [checkedFine,ValidInput,rationalFine] <;> intro h <;> cases h','']
                 n+=1
     invalid=[([],1,1),([(1,0)],1,1),([(1,1)],1,1),([(0,F(1,2))],1,1),
              ([(-1,F(1,2))],1,1),([(1,-1)],1,1),([(1,2)],1,1),

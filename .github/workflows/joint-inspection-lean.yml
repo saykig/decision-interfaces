@@ -65,16 +65,14 @@ jobs:
           python docs/working-ground/research/joint_inspection_2026_09_21/lean/verify.py \
             --packages docs/working-ground/research/information_incentives_2026_08_14/lean/.lake/packages \
             --lean lean --output /tmp/r22-lean.json 2>&1 | tee /tmp/r22-lean.log
-      - name: Boundary replay when present
+      - name: Exact boundary replay
         shell: bash
         run: |
           set -euo pipefail
           CHECK=docs/working-ground/research/joint_inspection_2026_09_21/experiments/boundary_checks.py
-          if [ -f "$CHECK" ]; then
-            python "$CHECK" > /tmp/r22-boundaries.json
-            python -O "$CHECK" > /tmp/r22-boundaries-O.json
-            cmp /tmp/r22-boundaries.json /tmp/r22-boundaries-O.json
-          fi
+          python "$CHECK" > /tmp/r22-boundaries.json
+          python -O "$CHECK" > /tmp/r22-boundaries-O.json
+          cmp /tmp/r22-boundaries.json /tmp/r22-boundaries-O.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
